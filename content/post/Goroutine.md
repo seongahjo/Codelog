@@ -15,8 +15,7 @@ Go 언어에서 제공하는 경량 스레드
 
 ### 타임아웃
 
-\`\`\`go
-
+```go
 select{
 
 case res := <-c1:
@@ -28,8 +27,7 @@ case <-time.After(time.Second*1):
 fmt.Println("timeout 1")
 
 }
-
-\`\`\`
+```
 
 ### 비동기 채널
 
