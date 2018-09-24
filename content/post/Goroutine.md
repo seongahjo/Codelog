@@ -1,7 +1,6 @@
 +++
 categories = ["Go", "Development"]
 date = "2018-09-23T15:00:00+00:00"
-draft = true
 tags = ["Go"]
 title = "Goroutine"
 
@@ -30,7 +29,7 @@ fmt.Println("timeout 1")
 
 }
 
-{{</highlight>}}
+{{< / highlight >}}  
 
 ### 비동기 채널
 
