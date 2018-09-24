@@ -1,0 +1,22 @@
+---
+label: General
+hide_body: false
+is_partial: false
+fields:
+- type: datetime
+  label: DATE
+  name: date
+  default: 2018-08-29 15:00:00 +0000
+  config:
+    required: true
+- type: text
+  name: title
+  label: TITLE
+  config:
+    required: true
+- type: tag_list
+  name: tags
+  label: TAGS
+- type: tag_list
+  label: CATEGORIES
+  name: categories
