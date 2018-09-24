@@ -1,14 +1,14 @@
 ---
-author: "Michael Henderson"
-date: 2014-09-28
+author: Michael Henderson
+date: 2014-09-28 00:00:00 +0000
 linktitle: Creating a New Theme
-next: /tutorials/github-pages-blog
-prev: /tutorials/automated-deployments
+next: "/tutorials/github-pages-blog"
+prev: "/tutorials/automated-deployments"
 title: Creating a New Theme
 weight: 10
+draft: true
+
 ---
-
-
 ## Introduction
 
 This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I'll explain how Hugo uses templates and how you can organize your templates to create a theme. I won't cover using CSS to style your theme.
