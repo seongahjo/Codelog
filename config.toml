@@ -2,7 +2,7 @@ baseurl = "https://codelog.netflfy.com"
 title = "CodeLog"
 author = "SeongAh Jo"
 paginate = 5
-theme = "arabica"
+theme = "hpstr"
 
 [params]
     description = "A minimal Hugo theme"
