@@ -1,20 +1,13 @@
 +++
-title = "Getting Started"
-description = ""
-tags = [
-    "go",
-    "golang",
-    "hugo",
-    "development",
-]
+categories = ["Development", "golang"]
 date = "2014-04-02"
-categories = [
-    "Development",
-    "golang",
-]
-menu = "main"
-+++
+description = ""
+draft = true
+tags = ["go", "golang", "hugo", "development"]
+title = "Getting Started"
+[menu.main]
 
++++
 ## Step 1. Install Hugo
 
 Go to [Hugo releases](https://github.com/spf13/hugo/releases) and download the
