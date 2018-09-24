@@ -30,7 +30,7 @@ fmt.Println("timeout 1")
 
 }
 
-{{<highlight>}}
+{{</highlight>}}
 
 ### 비동기 채널
 
