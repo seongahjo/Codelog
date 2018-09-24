@@ -1,7 +1,6 @@
 +++
 categories = ["Go", "Development"]
 date = "2018-09-23T15:00:00+00:00"
-draft = true
 tags = ["Go"]
 title = "Goroutine"
 
@@ -16,7 +15,7 @@ Go 언어에서 제공하는 경량 스레드
 
 ### 타임아웃
 
-{{< highlight go "linenos=table,hl_lines=8 15-17,linenostart=199" >}}  
+\`\`\`go
 
 select{
 
@@ -30,7 +29,7 @@ fmt.Println("timeout 1")
 
 }
 
-{{< / highlight >}}  
+\`\`\`
 
 ### 비동기 채널
 
