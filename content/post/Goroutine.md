@@ -1,6 +1,7 @@
 +++
 categories = ["Go", "Development"]
 date = "2018-09-23T15:00:00+00:00"
+draft = true
 tags = ["Go"]
 title = "Goroutine"
 
@@ -15,12 +16,21 @@ Go 언어에서 제공하는 경량 스레드
 
 ### 타임아웃
 
-    select{
-    	case res := <-c1:
-    		fmt.Println(res)
-    	case <-time.After(time.Second*1):
-    	fmt.Println("timeout 1")
-    }
+{{< highlight go }}
+
+select{
+
+	case res := <-c1:
+
+		fmt.Println(res)
+
+	case <-time.After(time.Second*1):
+
+	fmt.Println("timeout 1")
+
+}
+
+{{<highlight>}}
 
 ### 비동기 채널
 
@@ -60,7 +70,7 @@ ticker.C를 통해
 2. 처리가 끝난 데이터를 넣을 수 있도록 `result` 채널을 만든다
 3. 작업 내용을 정리한 `Worker`함수를 만든다.  _worker 함수는_ `_jobs_`_,_ `_result_` _채널을 매개변수로 받는다_
 
-        package main
+       package main
        
        import "fmt"
        import "time"
