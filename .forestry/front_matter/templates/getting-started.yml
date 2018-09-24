@@ -1,7 +1,7 @@
 ---
-label: Getting Started
-hide_body: 
-is_partial: 
+label: Normal
+hide_body: false
+is_partial: false
 fields:
 - name: date
   label: Date
