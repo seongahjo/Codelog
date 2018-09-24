@@ -3,9 +3,6 @@ title = "CodeLog"
 author = "SeongAh Jo"
 paginate = 5
 theme = "hpstr"
-
+PygmentsCodeFences = true
 [params]
     description = "A minimal Hugo theme"
-    replaceGoogleFonts = "fonts.loli.net"
-    twitter = "example"
-    facebook = "example"
