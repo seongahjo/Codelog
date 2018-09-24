@@ -6,7 +6,7 @@ tags = ["Go"]
 title = "Goroutine"
 
 +++
-## 고루틴 
+## 고루틴
 
 Go 언어에서 제공하는 경량 스레드
 
@@ -61,38 +61,38 @@ ticker.C를 통해
 2. 처리가 끝난 데이터를 넣을 수 있도록 `result` 채널을 만든다
 3. 작업 내용을 정리한 `Worker`함수를 만든다.  _worker 함수는_ `_jobs_`_,_ `_result_` _채널을 매개변수로 받는다_
 
-    package main
-    
-    import "fmt"
-    import "time"
-    
-    func worker(id int, jobs <-chan int, results chan<- int) {
-    	for j := range jobs {
-    		fmt.Println("worker", id, "started  job", j)
-    		time.Sleep(time.Second)
-    		fmt.Println("worker", id, "finished job", j)
-    		results <- j * 2
-    	}
-    }
-    
-    func main() {
-    
-    	jobs := make(chan int, 100)
-    	results := make(chan int, 100)
-    
-    	for w := 1; w <= 3; w++ {
-    		go worker(w, jobs, results)
-    	}
-    	
-    	for j := 1; j <= 5; j++ {
-    		jobs <- j
-    	}
-    	close(jobs)
-    	
-    	for a := 1; a <= 5; a++ {
-    		fmt.Println(<-results)
-    	}
-    }
+        package main
+       
+       import "fmt"
+       import "time"
+       
+       func worker(id int, jobs <-chan int, results chan<- int) {
+       	for j := range jobs {
+       		fmt.Println("worker", id, "started  job", j)
+       		time.Sleep(time.Second)
+       		fmt.Println("worker", id, "finished job", j)
+       		results <- j * 2
+       	}
+       }
+       
+       func main() {
+        jobs := make(chan int, 100)
+        results := make(chan int, 100)
+       
+        for w := 1; w <= 3; w++ {
+        	go worker(w, jobs, results)
+        }
+        
+        for j := 1; j <= 5; j++ {
+        	jobs <- j
+        }
+        close(jobs)
+        
+        for a := 1; a <= 5; a++ {
+        	fmt.Println(<-results)
+        }
+
+   }
 
 ### 속도 제한
 
@@ -102,7 +102,7 @@ ticker.C를 통해
 
 ## 공유 자원 접근 방법
 
-  원자성 카운터 여러 개의 고루틴에서 접근을 할 수 있는 `원자성 카운터 (atomic counter)`를 알아보자 `sync/atomic` 패키지에서 제공한다. 아래 두가지 함수를 자주 쓴다
+원자성 카운터 여러 개의 고루틴에서 접근을 할 수 있는 `원자성 카운터 (atomic counter)`를 알아보자 `sync/atomic` 패키지에서 제공한다. 아래 두가지 함수를 자주 쓴다
 
 * `AddUint64(&uint64, 값)`
 * `LoadUint64(&uint64)`
