@@ -20,3 +20,5 @@ fields:
 - type: tag_list
   label: CATEGORIES
   name: categories
+pages:
+- content/post/Goroutine.md
