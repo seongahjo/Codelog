@@ -1,6 +1,7 @@
 +++
 categories = ["Go", "Development"]
 date = "2018-09-23T15:00:00+00:00"
+draft = true
 tags = ["Go"]
 title = "Goroutine"
 
@@ -15,17 +16,17 @@ Go 언어에서 제공하는 경량 스레드
 
 ### 타임아웃
 
-{{< highlight go }}
+{{< highlight go> }}
 
 select{
 
-	case res := <-c1:
+case res := <-c1:
 
-		fmt.Println(res)
+	fmt.Println(res)
 
-	case <-time.After(time.Second*1):
+case <-time.After(time.Second*1):
 
-	fmt.Println("timeout 1")
+fmt.Println("timeout 1")
 
 }
 
