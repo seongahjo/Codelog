@@ -1,0 +1,11 @@
+baseurl = "https://codelog.netflfy.com"
+title = "CodeLog"
+author = "SeongAh Jo"
+paginate = 3
+theme = "arabica"
+
+[params]
+    description = "A minimal Hugo theme"
+    replaceGoogleFonts = "fonts.loli.net"
+    twitter = "example"
+    facebook = "example"
