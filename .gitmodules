@@ -1,3 +1,7 @@
 [submodule "arabica"]
 	path= themes/arabica
 	url = https://github.com/nirocfz/arabica.git
+
+[submodule "hpstr"]
+	path = themes/hpstr
+	url = https://github.com/dldx/hpstr-hugo-theme.git
