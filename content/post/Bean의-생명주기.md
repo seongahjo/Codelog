@@ -46,3 +46,5 @@ Spring에서 기본적으로 제공해주는 `InitializingBean` 인터페이스�
 초기화와 제거 메서드는 `AbstractAutowireCapableBeanFactory` 클래스에 의해 실행된다.
 
 가장 먼저 실행되는 `@PostConstruct`는 `BeanPostProcessor`에 의해 실행된다. 나머지 두 작업은 `invokeInitMethods()`에 의해 호출된다.
+
+[https://www.slipp.net/wiki/pages/viewpage.action?pageId=25527557](https://www.slipp.net/wiki/pages/viewpage.action?pageId=25527557 "스프링 공부 링크")
