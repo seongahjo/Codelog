@@ -37,6 +37,12 @@ Java Transaction API (JTA), JDBC, Hibernate, Java Persistence API (JPA), Java Da
 
 #### 컨테이너
 
+애플리케이션의 객체들의 생명주기 (lifecycle)와 설정을 컨테이너가 관리한다.
+
 #### 의존성 주입 (DI)
 
-#### 타 프레임워크와의 통합
+Spring Framework가 느슨히 연결된 애플리케이션 개발을 가능하게 하는 특징. 느슨히 연결된 애플리케이션은 유닛 테스트에 용이하다. 개발자들이 원할 때 모듈을 교체할 수 있도록 한다.
+
+#### 타 프레임워크와의 연동
+
+Ibatis, Hibernate, Toplink등 다양한 프레임워크와의 연동이 잘 되있다.
