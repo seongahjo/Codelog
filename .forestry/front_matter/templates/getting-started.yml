@@ -29,4 +29,5 @@ fields:
   hidden: false
   default: ''
 pages:
+- content/post/Bean의-생명주기.md
 - content/post/Spring-Framework.md
