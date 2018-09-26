@@ -29,5 +29,6 @@ fields:
   hidden: false
   default: ''
 pages:
+- content/post/Spring-Annotation.md
 - content/post/Bean의-생명주기.md
 - content/post/Spring-Framework.md
