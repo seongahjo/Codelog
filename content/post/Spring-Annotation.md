@@ -41,7 +41,7 @@ Autowired와 Qualifier를 합친 형태
 
 aspect bean 객체 내에 있는 공통의 메소드를 언제 실행할 것인가에 대한 조건.  
 
-@Pointcut("execution(public * sp.aop.service.*.*())")
+`@Pointcut("execution(public * sp.aop.service.*.()``_)"_`
 
 * execution 
 * within
