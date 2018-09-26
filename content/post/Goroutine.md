@@ -65,7 +65,7 @@ ticker.C를 통해
 
 1. `jobs` 채널을 두고 처리해야하는 데이터들을 다 넣어둔다.
 2. 처리가 끝난 데이터를 넣을 수 있도록 `result` 채널을 만든다
-3. 작업 내용을 정리한 `Worker`함수를 만든다.  _worker 함수는_ `_jobs_`_,_ `_result_` _채널을 매개변수로 받는다_
+3. 작업 내용을 정리한 `Worker`함수를 만든다.  _worker 함수는_ `jobs`_,_ `result` _채널을 매개변수로 받는다_
 
    ```go
    package main
