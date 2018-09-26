@@ -2,7 +2,6 @@
 categories = ["JAVA"]
 date = "2018-09-26T09:24:54+00:00"
 description = ""
-draft = true
 tags = ["java", "test", "junit5", "junit"]
 title = "Junit5"
 
