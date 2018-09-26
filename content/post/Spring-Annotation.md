@@ -63,19 +63,19 @@ pointcut에 들어가는 advice를 감싸는 부분. `@Before`, `@After` advice�
 
 특정 URI에 매핑되는 클래스나 메소드임을 명시해준다. 
 
-**####@Controller** 
+#### **@Controller** 
 
 스프링 MVC 컨트롤러 객체임을 명시한다.   
 
-**####@RequestParam** 
+#### **@RequestParam** 
 
 요청에서 특정한 파라미터의 값을 찾아낼 때 사용  
 
-**####@Repository**
+#### **@Repository**
 
  `@Component`의 하위 계층이며 DAO 객체임을 명시한다  
 
-**####@Service**
+#### **@Service**
 
 `@Component`의 하위 계층이며 Service 객체임을 명시한다.  
 
