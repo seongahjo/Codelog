@@ -10,6 +10,8 @@ title = "Bean의 생명주기"
 
 #### 초기화
 
+***
+
 ##### InitalizingBean 인터페이스
 
 Spring에서 기본적으로 제공해주는 `InitializingBean` 인터페이스를 구현하면 초기화 작업을 할 수 있다. `afterPropertiesSet()` 함수를 재정의하면 된다.
@@ -29,6 +31,8 @@ Spring에서 기본적으로 제공해주는 `InitializingBean` 인터페이스�
 * initMethod
 
 #### 제거
+
+***
 
 ##### DisposaleBean 인터페이스
 
