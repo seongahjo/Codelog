@@ -2,6 +2,7 @@
 categories = ["JAVA"]
 date = "2018-09-26T09:17:02+00:00"
 description = ""
+draft = true
 tags = ["java", "Spring", "Annotation"]
 title = "Spring Annotation"
 
