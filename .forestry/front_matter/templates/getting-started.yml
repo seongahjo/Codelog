@@ -29,6 +29,7 @@ fields:
   hidden: false
   default: ''
 pages:
+- content/post/마이크로-서비스-아키텍쳐.md
 - content/post/go로-카카오-2차-시험-준비하기.md
 - content/post/restful-api.md
 - content/post/Junit5.md
