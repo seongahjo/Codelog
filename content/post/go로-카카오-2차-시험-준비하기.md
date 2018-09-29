@@ -4,7 +4,7 @@ date = "2018-09-28T09:40:29+00:00"
 description = ""
 draft = true
 tags = ["입사", "Kakao", "Go"]
-title = "Go로 카카오 2차 시험 준비하기"
+title = "카카오 2차 시험 준비하기"
 
 +++
 ### 면접준비
