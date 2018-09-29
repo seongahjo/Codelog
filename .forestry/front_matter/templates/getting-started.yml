@@ -29,6 +29,7 @@ fields:
   hidden: false
   default: ''
 pages:
+- content/post/스케쥴링-큐.md
 - content/post/go로-카카오-2차-시험-준비하기.md
 - content/post/Junit5.md
 - content/post/restful-api.md
