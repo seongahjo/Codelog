@@ -3,6 +3,7 @@ title = "CodeLog"
 author = "SeongAh Jo"
 paginate = 5
 theme = "hpstr"
+disqusShortname= "codelog-1"
 PygmentsCodeFences = true
 [params]
     description = "A minimal Hugo theme"
