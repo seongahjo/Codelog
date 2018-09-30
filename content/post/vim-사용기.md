@@ -21,6 +21,8 @@ title = "Vim 사용기"
 
 `Plugin 'vim-airline/vim-airline'`
 
+Vim의 상태줄를 깔끔하게 바꿔주는 플러그인
+
 ##### NERDTree
 
 `Plugin 'scrooloose/nerdtree'`
