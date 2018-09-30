@@ -19,8 +19,24 @@ title = "Vim 사용기"
 
 ##### vim-airline
 
+`Plugin 'vim-airline/vim-airline'`
+
 ##### NERDTree
+
+`Plugin 'scrooloose/nerdtree'`
 
 ##### Syntastic
 
-##### 
+`Plugin 'scrooloose/syntastic'`
+
+##### Mark
+
+`Plugin 'mark'`
+
+##### Tagbar
+
+`Plugin 'majutsushi/tagbar'`
+
+##### Ctrlp.vim
+
+`Plugin 'ctrlpvim/ctrlp.vim'`
