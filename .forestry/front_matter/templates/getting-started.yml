@@ -29,6 +29,7 @@ fields:
   hidden: false
   default: ''
 pages:
+- content/post/트랜잭션.md
 - content/post/vim-사용기.md
 - content/post/메모리-구조.md
 - content/post/앞으로-공부해야할-것들에-대한-고찰.md
