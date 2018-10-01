@@ -29,6 +29,7 @@ fields:
   hidden: false
   default: ''
 pages:
+- content/post/마이크로-서비스-아키텍쳐.md
 - content/post/트랜잭션.md
 - content/post/vim-사용기.md
 - content/post/메모리-구조.md
@@ -40,4 +41,3 @@ pages:
 - content/post/Spring-Annotation.md
 - content/post/Spring-Framework.md
 - content/post/Bean의-생명주기.md
-- content/post/마이크로-서비스-아키텍쳐.md
