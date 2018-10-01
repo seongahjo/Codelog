@@ -29,6 +29,7 @@ fields:
   hidden: false
   default: ''
 pages:
+- content/post/restful-api.md
 - content/post/마이크로-서비스-아키텍쳐.md
 - content/post/트랜잭션.md
 - content/post/vim-사용기.md
@@ -37,7 +38,6 @@ pages:
 - content/post/스케쥴링-큐.md
 - content/post/go로-카카오-2차-시험-준비하기.md
 - content/post/Junit5.md
-- content/post/restful-api.md
 - content/post/Spring-Annotation.md
 - content/post/Spring-Framework.md
 - content/post/Bean의-생명주기.md

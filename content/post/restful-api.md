@@ -13,9 +13,9 @@ title = "RESTful API"
 
 REST는 REpresentational State Transfer의 약자이다. 여기에 \~ful 이라는 형용사형 어미를 붙여 \~한 API라는 표현으로 사용된다. REST의 기본 원칙을 성실히 지킨 서비스 디자인을 'RESTful'하다고 표현한다.
 
-#### REST는 _디자인 패턴_인가 _아키텍처_인가?
+#### REST는 디자인 패턴인가 아키텍처인가?
 
-  아키텍처다. REST는 Resource Oriented Architecture다. API 설계의 중심에 자원(Resource) 이 있고 HTTP Method를 통해 자원을 처리하도록 설계하는 것이다.
+아키텍처다. REST는 Resource Oriented Architecture다. API 설계의 중심에 자원(Resource) 이 있고 HTTP Method를 통해 자원을 처리하도록 설계하는 것이다.
 
 #### REST의 6가지 원칙
 
