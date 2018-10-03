@@ -25,7 +25,7 @@ Controller내 `@RequestMapping` Annotation을 통해 어떤 메소드에서 처�
 
 ContextLoaderListener 
 
-Viewresolver
+View Resolver
 
 MultipartResolver
 
