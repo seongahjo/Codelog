@@ -29,8 +29,8 @@ fields:
   hidden: false
   default: ''
 pages:
-- content/post/spring-mvc-처리구조.md
 - content/post/앞으로-공부해야할-것들에-대한-고찰.md
+- content/post/spring-mvc-처리구조.md
 - content/post/인덱스.md
 - content/post/restful-api.md
 - content/post/마이크로-서비스-아키텍쳐.md
