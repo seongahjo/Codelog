@@ -13,6 +13,8 @@ title = "Spring MVC 처리구조"
 
 Dispatvher servlet은 요청을 HandlerMapping으로 보내 어떤 Controller에서 처리가 가능한지 확인한다.
 
+web.xml은 Servlet 3.0부터 `WebApplicationInitializer`에 의해 대체되었다.
+
 Controller내 `@RequestMapping` Annotation을 통해 어떤 메소드에서 처리 가능한지 확인하고 해당 메소드에서 처리한다.
 
 ContextLoaderListener 
