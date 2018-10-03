@@ -11,11 +11,17 @@ title = "Spring MVC 처리구조"
 
 > 이거 정리해야함.... 으아아악 
 
+1. 요청이 왔을 때 처리 구조
+   1. 각각 파트에서 어떤 역할을 하는지
+2. 
+
 클라이언트의 모든 요청이 `DispatcherServlet`에 전달된다. `DispatcherServlet`은 Front Controller로 Spring servlet를 이루는 구조중 하나다.
 
 `DispatcherServlet`은 요청을 `HandlerMapping`으로 보내 어떤 Controller에서 처리가 가능한지 확인한다.
 
 webapplication context, locale resolver, theme resolver, theme source
+
+`context`란 어떤 객체를 핸들링 하기 위한 접근 수단
 
 `Flash Map`은 한 요청에서 다른 요청으로 파라미터를 넘길 때 사용하는 일반적인 패턴이다.
 
