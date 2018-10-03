@@ -13,6 +13,8 @@ title = "Spring MVC 처리구조"
 
 `DispatcherServlet`은 요청을 `HandlerMapping`으로 보내 어떤 Controller에서 처리가 가능한지 확인한다.
 
+webapplication context, locale resolver, theme resolver, theme source
+
 web.xml은 Servlet 3.0부터 `WebApplicationInitializer`에 의해 대체되었다.
 
 DispatvherServlet은 context Class로 `AnnotationConfigWebApplicationContext`을 참조하여 설정을 한다.
