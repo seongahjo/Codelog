@@ -17,4 +17,8 @@ Controller내 `@RequestMapping` Annotation을 통해 어떤 메소드에서 처�
 
 ContextLoaderListener 
 
+Viewresolver
+
+MultipartResolver
+
 대표적인 Servlet Container는 톰캣이다. WAS파일을 읽어 Servlet 객체를 생성해 관리한다. Servlet Container는 요청이 들어올 때마다 Servlet을 생성한다.
