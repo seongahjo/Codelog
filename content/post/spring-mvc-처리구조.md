@@ -42,3 +42,5 @@ View Resolver
 MultipartResolver
 
 대표적인 Servlet Container는 톰캣이다. WAS파일을 읽어 Servlet 객체를 생성해 관리한다. Servlet Container는 요청이 들어올 때마다 Servlet을 생성한다.
+
+Request -> Dispatcher Servlet -> Handler Mapping -> (D.S) -> Handler Adapter -> Controller -> 요청 처리 결과를 Model에 담고 View의 이름을 HandlerAdapter에 전달-> DispatcherServlet은 View이름을 가지고 ViewResolver에 요청해서  View를 찾음 -> Response에 View를 담아 리턴
