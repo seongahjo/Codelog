@@ -15,6 +15,8 @@ title = "Spring MVC 처리구조"
 
 webapplication context, locale resolver, theme resolver, theme source
 
+`Flash Map`은 한 요청에서 다른 요청으로 파라미터를 넘길 때 사용하는 일반적인 패턴이다.
+
 web.xml은 Servlet 3.0부터 `WebApplicationInitializer`에 의해 대체되었다.
 
 DispatvherServlet은 context Class로 `AnnotationConfigWebApplicationContext`을 참조하여 설정을 한다.
