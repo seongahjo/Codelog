@@ -19,7 +19,9 @@ webapplication context, locale resolver, theme resolver, theme source
 
 web.xml은 Servlet 3.0부터 `WebApplicationInitializer`에 의해 대체되었다.
 
-DispatvherServlet은 context Class로 `AnnotationConfigWebApplicationContext`을 참조하여 설정을 한다.
+`DispatcherServlet`은 context Class로 `AnnotationConfigWebApplicationContext`을 참조하여 설정을 한다.
+
+`dispatch`함수는 리퀘스트 처리할 적절한 핸들러를 찾는다. 핸들러는 일반적으로 특정한 객체이며 특정 인터페이스에 제한되지 않는다. 따라서 스프링은 핸들러와 어떻게 통신할 것인지를 나타내는 어댑터를 필요로 한다. 요청에 맞는 핸들러를 찾기위해 다양한 `HandlerMapping` 인터페이스의 구현으로 처리한다.
 
 Controller내 `@RequestMapping` Annotation을 통해 어떤 메소드에서 처리 가능한지 확인하고 해당 메소드에서 처리한다.
 
