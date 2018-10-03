@@ -27,7 +27,11 @@ web.xml은 Servlet 3.0부터 `WebApplicationInitializer`에 의해 대체되었�
 
 `RequestMappingHandlerMapping` 요청을 `@Controller`클래스의 `@RequestMapping`에 매핑된 메소드와 연결시킨다.
 
+`render()`함수 `LocaleResovler 개체`
+
 ModelAndView 
+
+`HttpMessageConverter`
 
 Controller내 `@RequestMapping` Annotation을 통해 어떤 메소드에서 처리 가능한지 확인하고 해당 메소드에서 처리한다.
 
