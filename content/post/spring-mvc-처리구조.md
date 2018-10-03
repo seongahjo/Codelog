@@ -7,7 +7,7 @@ tags = []
 title = "Spring MVC 처리구조"
 
 +++
-## Spring MVC 처리구조
+## (정리必) Spring MVC 처리구조
 
 > 이거 정리해야함.... 으아아악 
 
