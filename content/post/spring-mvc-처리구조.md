@@ -9,6 +9,8 @@ title = "Spring MVC 처리구조"
 +++
 ## Spring MVC 처리구조
 
+> 이거 정리해야함.... 으아아악 
+
 클라이언트의 모든 요청이 `DispatcherServlet`에 전달된다. `DispatcherServlet`은 Front Controller로 Spring servlet를 이루는 구조중 하나다.
 
 `DispatcherServlet`은 요청을 `HandlerMapping`으로 보내 어떤 Controller에서 처리가 가능한지 확인한다.
