@@ -31,4 +31,6 @@ service - 요청을 받을 때 실행 => doGet(), doPost()
 
 destory() 서버가 꺼질 떄 한번 실행 
 
+context에 따라 Container 개수가 달라짐?
+
 ApplicationContext(와 BeanFactory)가 Spring Container의 역할을 한다. Bean들의 생명주기를 관리한다.
