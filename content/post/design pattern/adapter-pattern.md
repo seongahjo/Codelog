@@ -7,7 +7,7 @@ tags = ["Adapter Pattern", "Adapter"]
 title = "Adapter Pattern"
 
 +++
-## Adapter Patter
+## Adapter Pattern
 
 > 생각하고 있는 구조는
 >
