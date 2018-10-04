@@ -33,4 +33,8 @@ destory() 서버가 꺼질 떄 한번 실행
 
 context에 따라 Container 개수가 달라짐?
 
+application context Container와
+
+Serlvet Container 두가지 있음.
+
 ApplicationContext(와 BeanFactory)가 Spring Container의 역할을 한다. Bean들의 생명주기를 관리한다.
