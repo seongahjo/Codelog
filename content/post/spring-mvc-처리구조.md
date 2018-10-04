@@ -14,6 +14,8 @@ title = "Spring MVC 처리구조"
 1. 요청이 왔을 때 처리 구조
    1. 각각 파트에서 어떤 역할을 하는지
 
+![](/uploads/2152594E590431631F.jpg)
+
 클라이언트의 모든 요청이 `Filter`를 거쳐 `DispatcherServlet`에 전달된다. `DispatcherServlet`은 Front Controller로 Spring servlet를 이루는 구조중 하나다. `DispatcherServlet`은 요청들을 받아서 Controller로 보내주는 역할을 한다. 
 
 어떤 Controller로 보내는지 알기 위해 요청을  `HandlerMapping` 로 보낸다. `HandlerMapping`에서 Controller를 결정하고 `DispatcherSerlvet`에서 `HandlerAdapter`를 통해 해당 Controller로 보낸다.
@@ -75,5 +77,3 @@ MultipartResolver
 configuration에서 FilterRegistrationBean를 bean으로 만들면 필터를 추가할 수 있음 혹은 `@Component` , `@WebFiler`을 통해서
 
 Request -> Filter -> Dispatcher Servlet -> Handler Mapping -> (D.S) -> Handler Adapter -> Controller -> 요청 처리 결과를 Model에 담고 View의 이름을 HandlerAdapter에 전달-> DispatcherServlet은 View이름을 가지고 ViewResolver에 요청해서  View를 찾음 -> Response에 View를 담아 리턴 -> Filter를 통해 Response로 감
-
-![](/uploads/2152594E590431631F.jpg)
