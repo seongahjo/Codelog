@@ -54,7 +54,7 @@ rootwebapplicationcontext는 공통적인 설정
 
 webapplicationcontext는 각각 Servlet에 대한 개별 설정
 
-ContextLoaderListener?
+ContextLoaderListener가 성생한 Context가 root Context가 된다.
 
 webapplication context, locale resolver, theme resolver, theme source
 
