@@ -9,9 +9,21 @@ title = "Adapter Pattern"
 +++
 ## Adapter Patter
 
+> 생각하고 있는 구조는
+>
+> 패턴에 대한 대략적인 개요
+>
+> 구현방법
+>
+> 예제
+>
+> 등이 있으면 좋을듯?
+
 한 클래스의 인터페이스를 클라이언트에서 사용하고자 하는 다른 인터페이스로 변환할 수 있는 디자인 패턴.
 
 어댑터를 이용하면 인터페이스 호환성 문제 때문에 같이 사용할 수 없는 클래스들을 연결해서 쓸 수 있다.
+
+### 구현방법
 
 Adapter는 Target Interface를 Implementation하며 Target Interface를 사용하고자 하는 Adaptee 인스턴스를 가지고 있다.
 
