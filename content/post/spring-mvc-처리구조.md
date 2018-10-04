@@ -46,6 +46,8 @@ Front Controller Pattern
 
 data repository나 bussiness service들을 처리하는 빈들을 이곳에 등록한다. `Controller`, `ViewResolver`, `HandlerMapping`이 이곳에 등록된다.
 
+rootwebapplicationcontext != webapplicationcontext
+
 webapplication context, locale resolver, theme resolver, theme source
 
 `context`란 어떤 객체를 핸들링 하기 위한 접근 수단
