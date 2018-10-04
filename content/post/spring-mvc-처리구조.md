@@ -40,6 +40,8 @@ Front Controller Pattern
 * 모든 리소스 요청을 처리해주는 하나의 컨트롤러를 두는 패턴
   * DispatcherServlet
 
+***
+
 webapplication context, locale resolver, theme resolver, theme source
 
 `context`란 어떤 객체를 핸들링 하기 위한 접근 수단
