@@ -50,6 +50,10 @@ data repository나 bussiness service들을 처리하는 빈들을 이곳에 등�
 
 rootwebapplicationcontext != webapplicationcontext
 
+rootwebapplicationcontext는 공통적인 설정
+
+webapplicationcontext는 각각 Servlet에 대한 개별 설정
+
 ContextLoaderListener?
 
 webapplication context, locale resolver, theme resolver, theme source
