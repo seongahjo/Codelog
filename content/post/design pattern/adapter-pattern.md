@@ -30,3 +30,5 @@ title = "Adapter Pattern"
 Adapter는 Target Interface를 Implementation하며 Target Interface를 사용하고자 하는 Adaptee 인스턴스를 가지고 있다.
 
 객체 어댑터와 클래스 어댑터
+
+중요한건 Adapter가 Adaptee 인스턴스를 가지고 있다는 것
