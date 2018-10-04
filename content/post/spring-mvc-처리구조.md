@@ -14,13 +14,17 @@ title = "Spring MVC 처리구조"
 1. 요청이 왔을 때 처리 구조
    1. 각각 파트에서 어떤 역할을 하는지
 
+클라이언트의 모든 요청이 `DispatcherServlet`에 전달된다. `DispatcherServlet`은 Front Controller로 Spring servlet를 이루는 구조중 하나다. `DispatcherServlet`은 요청들을 받아서 Controller로 보내주는 역할을 한다. 
+
+어떤 Controller로 보내는지 알기 위해 요청을  `HandlerMapping` 로 보낸다. `HandlerMapping`에서 Controller를 결정하고 `DispatcherSerlvet`에서 `HandlerAdapter`를 통해 해당 Controller로 보낸다.
+
+Controller에서 비지니스 로직을 처리하고 비지니스 로직을 View 이름과 함께  `ModelAndView`에 담아 `DispatcherServlet`에 돌려준다.
+
 Front Controller Pattern
 
 * 웹 애플리케이션과 관련된 패턴
 * 모든 리소스 요청을 처리해주는 하나의 컨트롤러를 두는 패턴
-  * DispatcherServlet 
-
-클라이언트의 모든 요청이 `DispatcherServlet`에 전달된다. `DispatcherServlet`은 Front Controller로 Spring servlet를 이루는 구조중 하나다.
+  * DispatcherServlet
 
 `DispatcherServlet`은 요청을 `HandlerMapping`으로 보내 어떤 Controller에서 처리가 가능한지 확인한다.
 
