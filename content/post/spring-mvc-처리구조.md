@@ -34,13 +34,13 @@ Controller에서 비지니스 로직을 처리하고 비지니스 로직을 View
 * HandlerAdapter
 * ViewResolver
 
+***
+
 Front Controller Pattern
 
 * 웹 애플리케이션과 관련된 패턴
 * 모든 리소스 요청을 처리해주는 하나의 컨트롤러를 두는 패턴
   * DispatcherServlet
-
-***
 
 webapplication context, locale resolver, theme resolver, theme source
 
