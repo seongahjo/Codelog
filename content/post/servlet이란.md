@@ -31,7 +31,7 @@ service - 요청을 받을 때 실행 => doGet(), doPost()
 
 destory() 서버가 꺼질 떄 한번 실행 
 
-context에 따라 Container 개수가 달라짐?
+context에 따라 Container 개수가 달라짐? 아마두? 
 
 application context Container와
 
