@@ -29,6 +29,7 @@ fields:
   hidden: false
   default: ''
 pages:
+- content/post/java/18.10.06-java-공부-시작.md
 - content/post/design pattern/adapter-pattern.md
 - content/post/servlet이란.md
 - content/post/spring에-대한-공부-진행중-브레인스토밍.md
