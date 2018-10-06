@@ -29,6 +29,7 @@ fields:
   hidden: false
   default: ''
 pages:
+- content/post/매일 공부/18-10-06.md
 - content/post/java/18.10.06-java-공부-시작.md
 - content/post/design pattern/adapter-pattern.md
 - content/post/servlet이란.md
