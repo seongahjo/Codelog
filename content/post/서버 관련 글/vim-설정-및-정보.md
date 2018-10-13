@@ -49,6 +49,10 @@ vim의 하단 status / tabline을 표시하는 플러그인
 
 `majutsushi/tagbar`
 
+ctag 기반으로 태그를 나타내고 이동할 수 있는 플러그인
+
+`nmap <F8> :TagbarToggle<CR>`로 F8에 태그창을 열고 닫을 수 있다.
+
 ##### Ctrlp
 
 `ctrlpvim/ctrlp.vim`
