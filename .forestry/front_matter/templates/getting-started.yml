@@ -29,6 +29,7 @@ fields:
   hidden: false
   default: ''
 pages:
+- content/post/spring-mvc-처리구조.md
 - content/post/서버 관련 글/vim-설정-및-정보.md
 - content/post/매일 공부/18-10-06.md
 - content/post/java/18.10.06-java-공부-시작.md
@@ -36,7 +37,6 @@ pages:
 - content/post/servlet이란.md
 - content/post/spring에-대한-공부-진행중-브레인스토밍.md
 - content/post/앞으로-공부해야할-것들에-대한-고찰.md
-- content/post/spring-mvc-처리구조.md
 - content/post/인덱스.md
 - content/post/restful-api.md
 - content/post/마이크로-서비스-아키텍쳐.md
