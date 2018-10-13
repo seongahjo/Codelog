@@ -23,19 +23,27 @@ IP : 45.119.146.50
 
 `vim-airline/vim-airline`
 
-vim의 하단 status / tavline을 표시하는 공
+vim의 하단 status / tabline을 표시하는 플러그인
 
 ##### NERDTree
 
 `scrooloose/nerdtree`
 
+파일트리를 표시해주는 플러그인
+
+`nmap <F7> :NERDTreeToggle<CR>`로 트리르 열고 닫는 단축키를 F7로 지정할 수 있음.
+
 ##### Syntastic
 
 `scrooloose/syntastic`
 
+문법 체크를 해주는 플러그인
+
 ##### Mark
 
 `mark`
+
+찾은 단어를 하이라이팅 해주는 플러그인
 
 ##### Tagbar
 
