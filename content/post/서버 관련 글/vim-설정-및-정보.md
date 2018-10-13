@@ -45,6 +45,8 @@ vim의 하단 status / tabline을 표시하는 플러그인
 
 찾은 단어를 하이라이팅 해주는 플러그인
 
+:Mark로 실행
+
 ##### Tagbar
 
 `majutsushi/tagbar`
@@ -56,3 +58,5 @@ ctag 기반으로 태그를 나타내고 이동할 수 있는 플러그인
 ##### Ctrlp
 
 `ctrlpvim/ctrlp.vim`
+
+CtrlP로 실행
