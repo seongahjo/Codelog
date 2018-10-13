@@ -59,4 +59,4 @@ ctag 기반으로 태그를 나타내고 이동할 수 있는 플러그인
 
 `ctrlpvim/ctrlp.vim`
 
-CtrlP로 실행
+:CtrlP로 실행
