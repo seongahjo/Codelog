@@ -19,6 +19,8 @@ IP : 45.119.146.50
 
 `VundleVim/Vundle.vim`
 
+vim Plugin package manager
+
 ##### vim-airline
 
 `vim-airline/vim-airline`
