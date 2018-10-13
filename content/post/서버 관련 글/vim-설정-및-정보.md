@@ -7,6 +7,8 @@ tags = ["vim"]
 title = "Vim 설정 및 정보"
 
 +++
+IP : 45.119.146.50
+
 ### Vim
 
 #### Plugin
