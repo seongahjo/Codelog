@@ -21,6 +21,8 @@ title = "Vim 설정 및 정보"
 
 `vim-airline/vim-airline`
 
+vim의 하단 status / tavline을 표시하는 공
+
 ##### NERDTree
 
 `scrooloose/nerdtree`
