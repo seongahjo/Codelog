@@ -29,6 +29,7 @@ fields:
   hidden: false
   default: ''
 pages:
+- content/post/naver-hackday-지원.md
 - content/post/인덱스.md
 - content/post/앞으로-공부해야할-것들에-대한-고찰.md
 - content/post/spring-mvc-처리구조.md
