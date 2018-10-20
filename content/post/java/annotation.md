@@ -55,3 +55,16 @@ enumName enum() default enum.aa;
 * `ElementType.TYPE_USE` 타입 사용시
 
 ##### @Scope
+
+###### value
+
+* request 요청시 마다 새로 생성
+* singleton (deafult)
+* prototype `getBean()`하는 시점마다 새로운 빈 객체를 생성해준다.
+* session 세션 내 유일한 빈을 생성
+
+proxyMode
+
+`Reflection`을 통해 어노테이션이 적용된 곳을 찾고 주입할 수 있다. 
+
+`java.lang.reflect`
