@@ -65,6 +65,17 @@ enumName enum() default enum.aa;
 
 ###### proxyMode
 
+* ScopedProxyMode.NO 프록시를 생성하지 않는다
+* ScopedProxyMode.INTERFACES 인터페이스에 대해 프록시를 생성
+* ScopedProxyMode.TARGET_CLASS CGLIB을 사용하여 클래스에 대한 프록시 생성
+* ScopedProxyMode.DEFAULT
+
+###### CGLIB
+
+CGLIB은 코드 생성 라이브러리 (Code Generator Library)
+
+런타임에 동적으로 자바 클래스의 프록시를 생성해주는 기능을 제공한다.
+
 `Reflection`을 통해 어노테이션이 적용된 곳을 찾고 주입할 수 있다. 
 
 `java.lang.reflect`
