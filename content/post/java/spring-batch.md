@@ -36,7 +36,7 @@ Job을 실행하는데 필요한 파라미터 정보를 key-value 형식으로 �
 
 #### Step
 
-하나의 Job은 여러 개의 Step으로 이루어져 있다. Step에서 Batch Job을 처리하는 작업의 일부 또는 전체를 수행한다. Step은 `ItemReader`, `ItemProcessor`, `ItemWriter`를 포함한다.
+하나의 Job은 여러 개의 Step으로 이루어져 있다. Step에서 Batch Job을 처리하는 작업의 일부 또는 전체를 수행한다. Step은 `ItemReader`, `ItemProcessor`, `ItemWriter`을 포함하거나 `Tasklet`을 포함한다.
 
 #### StepExecution
 
@@ -47,3 +47,5 @@ JobExecution은 Job의 상태와 Job을 실행시키기 위한 속성을 포함�
 Step을 샐성하기 위한 클래스다.
 
 `JobBuilderFactory`를 통해 `Job`을 만들고 `StepBuilderFactory`를 통해 `Step`을 만든다.
+
+#### Tasklet
