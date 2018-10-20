@@ -71,3 +71,5 @@ Batch 작업시 `Configuration`에 `job`, ?`step` bean이 필요하다.
 `job` bean은 작업 순서 등. (Flow Control)
 
 ItemWriter 모아서 List를 만드는거지 List를 입력받지 않음.
+
+입력받으려면 ItemWritert를 재정의 해야함.
