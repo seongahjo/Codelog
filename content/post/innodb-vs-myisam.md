@@ -2,7 +2,6 @@
 categories = ["Database"]
 date = "2018-10-20T10:25:25+00:00"
 description = ""
-draft = true
 tags = ["InnoDB", "MyISAM"]
 title = "InnoDB vs MyISAM"
 
