@@ -21,7 +21,16 @@ title = "Annotation"
 #### 선언법
 
 ```java
-public @interface AnnotationName{}
+public @interface AnnotationName{
+public enum enumName {aa,bb}
+
+// String
+String value();
+// 배열
+int[] values();
+
+enumName enum() default enum.aa;
+}
 ```
 
 #### 중요한 어노테이션
@@ -44,3 +53,5 @@ public @interface AnnotationName{}
 * `ElmentType.PARAMETER` 매개 변수 선언시
 * `ElementType.TYPE_PARAMETER` 매개 변수 타입 선언시
 * `ElementType.TYPE_USE` 타입 사용시
+
+##### @Scope
