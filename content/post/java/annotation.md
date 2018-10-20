@@ -16,3 +16,20 @@ title = "Annotation"
 * `@Target` 어노테이션이 적용될 위치를 결정한다.
 * `@Inherited` 자식 클래스가 어노테이션을 상속 받을 수 있다.
 * `@Repeatble` 반복적으로 어노테이션을 선언할 수 있다.
+* `@Scope` 어노테이션의 범위를 정할 수 있다.
+
+#### 선언법
+
+```java
+public @interface AnnotationName{}
+```
+
+#### 중요한 어노테이션
+
+##### @Retention
+
+* `RetentionPolicy.RUNTIME` 컴파일 이후에도 JVM에 의해서 참조가 가능하다.
+* `RetentionPolicy.CLASS` 컴파일러가 클래스를 참조할 때까지 유효하다.
+* `RetentionPolicy.SOURCE` 어노테이션 정보는 컴파일 이후 없어진다.
+
+##### @Target
