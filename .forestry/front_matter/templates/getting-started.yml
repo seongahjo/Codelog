@@ -29,11 +29,11 @@ fields:
   hidden: false
   default: ''
 pages:
+- content/post/인덱스.md
 - content/post/innodb-vs-myisam.md
 - content/post/java/유용한-intellij-plugin.md
 - content/post/java/annotation.md
 - content/post/java/spring-batch.md
-- content/post/인덱스.md
 - content/post/앞으로-공부해야할-것들에-대한-고찰.md
 - content/post/spring-mvc-처리구조.md
 - content/post/서버 관련 글/vim-설정-및-정보.md
