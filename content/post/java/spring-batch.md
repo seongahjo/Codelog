@@ -69,3 +69,5 @@ Batch 작업시 `Configuration`에 `job`, ?`step` bean이 필요하다.
 `?step` bean은 구체적인 작업 내용
 
 `job` bean은 작업 순서 등. (Flow Control)
+
+ItemWriter 모아서 List를 만드는거지 List가 되지않음.
