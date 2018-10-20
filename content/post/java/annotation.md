@@ -82,6 +82,7 @@ CGLIB은 코드 생성 라이브러리 (Code Generator Library)
 
 * Enhancer 객체 생성
 * enhancer 객체에 `setSuperclass()`를 통해 프록시할 클래스를 지정
+* `setCallback()`을 통해 메소드 인터셉트 
 * `create()` 로 프록시 생성
 
 `Reflection`을 통해 어노테이션이 적용된 곳을 찾고 주입할 수 있다. 
