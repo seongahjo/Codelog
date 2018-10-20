@@ -20,4 +20,4 @@ title = "InnoDB vs MyISAM"
 
 가 있다.
 
-MyISAM은 Select연산이 InnoDB에 비해 빠르다.
+MyISAM은 Select연산이 InnoDB에 비해 빠르다. 풀 텍스트 인덱스를 지원한다.
