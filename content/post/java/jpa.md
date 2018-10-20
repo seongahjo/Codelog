@@ -22,4 +22,6 @@ title = "JPA"
 * CascadeType.DETACH 부모 엔티티가 `detach()`를 수행하면 연관된 엔티티도 `detach()`실행 되어 변경사항이 적용 안된다.
 * CascadeType.ALL
 
+persistence context
+
 persist() -> flush() 해야 실제 DB에 적용됨.
