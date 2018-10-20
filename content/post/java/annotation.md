@@ -78,6 +78,12 @@ CGLIB은 코드 생성 라이브러리 (Code Generator Library)
 
 스프링은 프록시 기반의 AOP를 구현할 때 CGLIB을 사용하고 있다.
 
+###### 사용법
+
+* Enhancer 객체 생성
+* enhancer 객체에 `setSuperclass()`를 통해 프록시할 클래스를 지정
+* `create()` 로 프록시 생성
+
 `Reflection`을 통해 어노테이션이 적용된 곳을 찾고 주입할 수 있다. 
 
 `java.lang.reflect`
