@@ -11,8 +11,8 @@ title = "JPA"
 
 #### Fetch
 
-* FetchType.EAGER
-* FetchType.LAZY
+* FetchType.EAGER JOIN 연산을 통해 연관 객체를 한번에 다 얻어온다.
+* FetchType.LAZY 일단 proxy 객체를 리턴하고 실제로 필요할 때 데이터베이스에서 조회한다.
 
 #### Cascade
 
