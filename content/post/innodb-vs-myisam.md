@@ -17,4 +17,7 @@ title = "InnoDB vs MyISAM"
 * Locking의 범위 차이
 * 데이터의 순서 유무
 * 회복(복구) 기능 유무
-* 
+
+가 있다.
+
+MyISAM은 Select연산이 InnoDB에 비해 빠르다.
