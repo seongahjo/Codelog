@@ -48,4 +48,8 @@ Step을 샐성하기 위한 클래스다.
 
 `JobBuilderFactory`를 통해 `Job`을 만들고 `StepBuilderFactory`를 통해 `Step`을 만든다.
 
+#### StepExecutionListener
+
+`void beforeStep(StepExecution stepExecution)`와 `ExitStatus afterStep(StepExecution stepExecution)`을 메소드로 가지고 있음.
+
 #### Tasklet
