@@ -53,3 +53,9 @@ Step을 샐성하기 위한 클래스다.
 `void beforeStep(StepExecution stepExecution)`와 `ExitStatus afterStep(StepExecution stepExecution)`을 메소드로 가지고 있음.
 
 #### Tasklet
+
+Chunk 기반에서 `ItemReader`, `ItemProcessor`, `ItemWriter`를 하나로 합친 단위.
+
+모든 작업을 순차적으로 진행한다.
+
+복구가 불가능하다.
