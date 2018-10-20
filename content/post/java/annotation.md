@@ -76,6 +76,8 @@ CGLIB은 코드 생성 라이브러리 (Code Generator Library)
 
 런타임에 동적으로 자바 클래스의 프록시를 생성해주는 기능을 제공한다.
 
+스프링은 프록시 기반의 AOP를 구현할 때 CGLIB을 사용하고 있다.
+
 `Reflection`을 통해 어노테이션이 적용된 곳을 찾고 주입할 수 있다. 
 
 `java.lang.reflect`
