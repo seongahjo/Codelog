@@ -1,6 +1,18 @@
 +++
+categories = ["Java"]
 date = "2018-10-20T09:51:19+00:00"
+description = ""
 draft = true
+tags = ["Annotation"]
 title = "Annotation"
 
 +++
+### Annotation
+
+어노테이션은 **소스 코드에 메타데이터**를 표시하는 것. 리플렉션을 이용하면 어노테이션 지정으로 원하는 클래스를 주입할 수 있음. ex) `@Autowired`
+
+* `@Retention` 어노테이션의 적용 시점을 정할 수 있다.
+* `@Documented` 문서에서도 어노테이션의 정보가 표현된다.
+* `@Target` 어노테이션이 적용될 위치를 결정한다.
+* `@Inherited` 자식 클래스가 어노테이션을 상속 받을 수 있다.
+* `@Repeatble` 반복적으로 어노테이션을 선언할 수 있다.
