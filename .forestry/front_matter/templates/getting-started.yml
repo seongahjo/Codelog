@@ -29,6 +29,7 @@ fields:
   hidden: false
   default: ''
 pages:
+- content/post/innodb-vs-myisam.md
 - content/post/java/유용한-intellij-plugin.md
 - content/post/java/annotation.md
 - content/post/java/spring-batch.md
