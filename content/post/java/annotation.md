@@ -33,3 +33,14 @@ public @interface AnnotationName{}
 * `RetentionPolicy.SOURCE` 어노테이션 정보는 컴파일 이후 없어진다.
 
 ##### @Target
+
+* `ElementType.PACKAGE` 패키지 선언시
+* `ElementType.TYPE` 타입 선언시
+* `ElementType.CONSTRUCTOR` 생성자 선언시
+* `ElementType.FIELD` 멤버 변수 선언시
+* `ElementType.METHOD` 메소드 선언시
+* `ElementType.ANNOTATION_TYPE` 어노테이션 타입 선언시
+* `ElementType.LOCAL_VARIABLE` 지역 변수 선언시
+* `ElmentType.PARAMETER` 매개 변수 선언시
+* `ElementType.TYPE_PARAMETER` 매개 변수 타입 선언시
+* `ElementType.TYPE_USE` 타입 사용시
