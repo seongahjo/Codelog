@@ -7,7 +7,11 @@ tags = ["enum"]
 title = "enum"
 
 +++
-### enum
+### Enum
+
+Java의 enum은 class다.
+
+#### 사용예시 1
 
 ```java
 public enum enumName{
@@ -15,11 +19,7 @@ public enum enumName{
 }
 ```
 
-`enumName.values()` enum 내의 모든 값들 반환
-
-`enumName.enumValue1.ordinal()` enumValue1의 int값 반환
-
-`enumName.valueOf("enumValue1")` enumValue1 반환
+#### 사용 예시2
 
 ```java
 enum enumName{
@@ -34,3 +34,11 @@ enum enumName{
 	}
 }
 ```
+
+#### 함수
+
+`enumName.values()` enum 내의 모든 값들 반환
+
+`enumName.enumValue1.ordinal()` enumValue1의 int값 반환
+
+`enumName.valueOf("enumValue1")` enumValue1 반환
