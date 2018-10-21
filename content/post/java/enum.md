@@ -9,7 +9,7 @@ title = "enum"
 +++
 ### Enum
 
-Java의 enum은 class다.
+Java에서 Enum은 class다.
 
 #### 사용예시 1
 
