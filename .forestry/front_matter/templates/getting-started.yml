@@ -29,7 +29,6 @@ fields:
   hidden: false
   default: ''
 pages:
-- content/post/java/enum.md
 - content/post/java/optional.md
 - content/post/java/메소드-참조.md
 - content/post/선언형-vs-명령형.md
