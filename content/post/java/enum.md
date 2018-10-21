@@ -43,3 +43,7 @@ public enum enumName{
 `enumName.enumValue1.ordinal()` enumValue1의 int값 반환
 
 `enumName.valueOf("enumValue1")` enumValue1 반환
+
+#### 참조
+
+[Java Enum 활용기 (우아한 형제들 기술블로그)](http://woowabros.github.io/tools/2017/07/10/java-enum-uses.html)
