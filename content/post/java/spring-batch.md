@@ -64,9 +64,9 @@ Chunk 기반에서 `ItemReader`, `ItemProcessor`, `ItemWriter`를 하나로 합�
 
 조건에 의해 실행
 
-Batch 작업시 `Configuration`에 `job`, ?`step` bean이 필요하다.
+Batch 작업시 `Configuration`에 `job`, `step` bean이 필요하다.
 
-`?step` bean은 구체적인 작업 내용
+`step` bean은 구체적인 작업 내용
 
 `job` bean은 작업 순서 등. (Flow Control)
 
