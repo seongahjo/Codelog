@@ -18,3 +18,19 @@ public enum enumName{
 `enumName.values()` enum 내의 모든 값들 반환
 
 `enumName.enumValue1.ordinal()` enumValue1의 int값 반환
+
+`enumName.valueOf("enumValue1")` enumValue1 반환
+
+```java
+enum enumName{
+	enumValue1("일"), enumValue2("이"), enumValue3("삼")
+    
+    final private String name;
+    private enumName(String name){
+    	this.name = name;
+    }
+    public String getName(){
+		return name;
+	}
+}
+```
