@@ -23,7 +23,7 @@ public enum enumName{
 
 ```java
 enum enumName{
-	enumValue1("일"), enumValue2("이"), enumValue3("삼")
+	enumValue1("일"), enumValue2("이"), enumValue3("삼");
     
     final private String name;
     private enumName(String name){
