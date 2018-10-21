@@ -29,6 +29,7 @@ fields:
   hidden: false
   default: ''
 pages:
+- content/post/java/메소드-참조.md
 - content/post/선언형-vs-명령형.md
 - content/post/앞으로-공부해야할-것들에-대한-고찰.md
 - content/post/java/jpa.md
