@@ -30,3 +30,7 @@ Java8에서 제공
 바이맵은 키(Key)처럼 값(Value)의 유일함을 강제한다.
 
 #### 쉬운 해시코드(Hashcode)와 비교자(Comparator)
+
+`Objects` 클래스를 통해 `hashCode`를 쉽게 생성하는 방법을 제공.
+
+`ComparisonChain` 클래스를 통해 Comparator 제공.
