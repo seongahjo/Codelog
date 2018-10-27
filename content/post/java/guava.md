@@ -59,7 +59,7 @@ Java8에서 제공
 
 if문으로 null 비교했던 거를 static 메소드 `checkNotNull()`로 대체 가능.
 
-CharMatcher?
+CharMatcher는 regrex를 대체할 수 있단다.
 
 `Joiner`를 통해 String 연결할 때 조건문 넣을 수 있음.
 
