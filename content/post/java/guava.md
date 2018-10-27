@@ -28,3 +28,5 @@ Java8에서 제공
 #### Multimaps과 Bimaps
 
 바이맵은 키(Key)처럼 값(Value)의 유일함을 강제한다.
+
+#### 쉬운 해시코드(Hashcode)와 비교자(Comparator)
