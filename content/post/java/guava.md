@@ -48,3 +48,13 @@ Java8에서 제공
 #### I/O
 
 #### Math
+
+#### 대체
+
+`StringBuilder`사용했 던 것을 `Objects.toStringHelper()`로 대체 가능
+
+각 클래스 비교시 `Objects.equals()`를 통해 구현할 수 있다.
+
+삼항연산자를 `Objects.firstNonNull()`로 대체 가능.
+
+if문으로 null 비교했던 거를 static 메소드 `checkNotNull()`로 대체 가능.
