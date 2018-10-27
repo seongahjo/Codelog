@@ -58,3 +58,7 @@ Java8에서 제공
 삼항연산자를 `Objects.firstNonNull()`로 대체 가능.
 
 if문으로 null 비교했던 거를 static 메소드 `checkNotNull()`로 대체 가능.
+
+CharMatcher?
+
+`Joiner`를 통해 String 연결할 때 조건문 넣을 수 있음.
