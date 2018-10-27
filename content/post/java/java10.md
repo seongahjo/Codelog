@@ -24,3 +24,5 @@ Java10에는 새롭게 추가된 12가지 특징이 있다.
 #### 수많은 JDK forest 저장소를 단일 저장소로 통합
 
 ?forest 저장소가 뭐지
+
+[참조](http://itstory.tk/entry/Java-10-%EC%8B%A0%EA%B7%9C-%EA%B8%B0%EB%8A%A5%ED%8A%B9%EC%A7%95-%EC%A0%95%EB%A6%AC)
