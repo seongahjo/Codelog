@@ -62,3 +62,5 @@ if문으로 null 비교했던 거를 static 메소드 `checkNotNull()`로 대체
 CharMatcher?
 
 `Joiner`를 통해 String 연결할 때 조건문 넣을 수 있음.
+
+`Splitter`를 통해 String 분리할 수 있음.
