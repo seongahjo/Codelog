@@ -38,3 +38,9 @@ Java8에서 제공
 #### 방어적 코딩
 
 `checkArgument`
+
+#### Date 처리
+
+`LocalDate` 클래스를 통해 처리 가능
+
+`Range` 클래스도 있음.
