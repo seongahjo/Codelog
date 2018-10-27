@@ -34,3 +34,7 @@ Java8에서 제공
 `Objects` 클래스를 통해 `hashCode`를 쉽게 생성하는 방법을 제공.
 
 `ComparisonChain` 클래스를 통해 Comparator 제공.
+
+#### 방어적 코딩
+
+`checkArgument`
