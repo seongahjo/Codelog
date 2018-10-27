@@ -66,3 +66,5 @@ CharMatcher?
 `Splitter`를 통해 String 분리할 수 있음.
 
 ImmutableMap, Set을 만들 수 있다.
+
+`Files.readLines()`를 통해 파일을 읽을 수 있다.
