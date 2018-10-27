@@ -18,3 +18,5 @@ Java SE 10은 2018년 3월에 출시 됐다.
 Java10에는 새롭게 추가된 12가지 특징이 있다.
 
 #### Local-Variable Type Inference 'var'
+
+초기화된 로컬 변수 선언시, 반복문에서 지역변수 선언시 사용가능.
