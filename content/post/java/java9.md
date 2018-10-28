@@ -19,9 +19,15 @@ Java용 REPL, 간단한 Code Snippet 실행 가능
 
 `List.of(values...)` `Map.of(key,value,key,value,...)`
 
-기존 `Collections.unmodifiableList(list)`
+기존방식 `Collections.unmodifiableList(list)`
 
 #### Jigsaw Project
+
+module system
+
+`exports`를 통해 외부에 노출되는 패키지를 설정.
+
+`requires`를 통해 패키지에 필요한 모듈을 지정.
 
 이건 자세히 알아볼 필요가 있따...
 
