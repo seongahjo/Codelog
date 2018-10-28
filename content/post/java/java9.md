@@ -53,6 +53,14 @@ jlink tool을 통해 runtime에 JDK에서 필요한 라이브러리들을 호출
 
 #### Stream API 개선
 
+`dropWhile` d
+
+`takeWhile` d
+
+`ofNullable` d
+
+`iterate` 개선
+
 #### HTTP2 Client
 
 #### Multi-Resolution Image API
