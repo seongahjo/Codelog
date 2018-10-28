@@ -41,6 +41,8 @@ module de.codecentric.zipvalidator{
 }
 ```
 
+[실제 예](https://www.linkedin.com/pulse/java-9-pain-gain-jigsaw-massimiliano-dal-mas)
+
 #### Process API 개선
 
 #### try-with-resources 개선
