@@ -11,7 +11,7 @@ title = "Java9"
 
 #### JShell
 
-Java용 REPL, 간단한 Code Snippet 실행 가능
+Java용 REPL(Read-Eval-Print-Loop), 간단한 Code Snippet 실행 가능
 
 #### 불변 Collection 생성 메서드 제공
 
