@@ -71,10 +71,14 @@ jlink tool을 통해 runtime에 JDK에서 필요한 라이브러리들을 호출
 
 [참조2](https://www.pluralsight.com/blog/software-development/java-9-new-features)
 
-java8
-
 interface에서
+
+java8
 
 default method
 
 static method도 가능
+
+java 9
+
+private method도 가능 
