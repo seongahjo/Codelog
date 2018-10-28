@@ -13,7 +13,9 @@ title = "Java9"
 
 Java용 REPL(Read-Eval-Print-Loop), 간단한 Code Snippet 실행 가능
 
-#### 불변 Collection 생성 메서드 제공
+#### Collection Factory Method
+
+Immutable한 Collection을 생성한다.
 
 기존 Guava에서 제공하던 불변 List, Set, Map, Map.Entry 생성 가능
 
