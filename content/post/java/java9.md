@@ -73,4 +73,8 @@ jlink tool을 통해 runtime에 JDK에서 필요한 라이브러리들을 호출
 
 java8
 
+interface에서
+
 default method
+
+static method도 가능
