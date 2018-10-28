@@ -23,7 +23,7 @@ Immutable한 Collection을 생성한다.
 
 기존방식 `Collections.unmodifiableList(list)`
 
-#### Jigsaw Project
+#### Project Jigsaw
 
 module system
 
