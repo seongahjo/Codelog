@@ -35,6 +35,12 @@ jlink tool을 통해 runtime에 JDK에서 필요한 라이브러리들을 호출
 
 이건 자세히 알아볼 필요가 있따...
 
+```java
+module de.codecentric.zipvalidator{
+	exports de.codecentric.zipvalidator.api;
+}
+```
+
 #### Process API 개선
 
 #### try-with-resources 개선
