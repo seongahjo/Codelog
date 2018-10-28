@@ -29,7 +29,7 @@ module system
 
 `requires`를 통해 패키지에 필요한 모듈을 지정.
 
-jlink tool을 통해 runtime에 jdk에서 필요한 라이브러리들을 호출한다.
+jlink tool을 통해 runtime에 JDK에서 필요한 라이브러리들을 호출한다.
 
 이건 자세히 알아볼 필요가 있따...
 
