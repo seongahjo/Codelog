@@ -29,6 +29,8 @@ module system
 
 `requires`를 통해 패키지에 필요한 모듈을 지정.
 
+jlink tool을 통해 runtime에 jdk에서 필요한 라으브러리들을 호출한다.
+
 이건 자세히 알아볼 필요가 있따...
 
 #### Process API 개선
