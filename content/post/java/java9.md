@@ -19,6 +19,8 @@ Java용 REPL, 간단한 Code Snippet 실행 가능
 
 `List.of(values...)` `Map.of(key,value,key,value,...)`
 
+기존 `Collections.unmodifiableList(list)`
+
 #### Jigsaw Project
 
 이건 자세히 알아볼 필요가 있따...
