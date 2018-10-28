@@ -67,7 +67,7 @@ jlink tool을 통해 runtime에 JDK에서 필요한 라이브러리들을 호출
 
 #### Multi-release JARs
 
-Java version에 따라 다른 버전의 라이브러리를 제공함.
+Java version에 따라 다른 버전의 라이브러리를 제공함. (하위 호환성이 더 좋아짐)
 
 [참조](https://medium.com/@goinhacker/java-9%EC%9D%98-%EB%B3%80%ED%99%94%EC%99%80-%ED%8A%B9%EC%A7%95-%EB%8C%80%EC%B6%A9-%EC%A0%95%EB%A6%AC-fca77cee88f2)
 
