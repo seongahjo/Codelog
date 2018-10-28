@@ -49,8 +49,6 @@ jlink tool을 통해 runtime에 JDK에서 필요한 라이브러리들을 호출
 
 #### Reactive Stream API 추가
 
-#### Optional To Stream
-
 #### Stream API 개선
 
 `dropWhile` d
@@ -61,6 +59,8 @@ jlink tool을 통해 runtime에 JDK에서 필요한 라이브러리들을 호출
 
 `iterate` 개선
 
+`Optional.of(1).stream()` optional to stream
+
 #### HTTP2 Client
 
 #### Multi-Resolution Image API
@@ -68,3 +68,5 @@ jlink tool을 통해 runtime에 JDK에서 필요한 라이브러리들을 호출
 #### Multi-release JARs
 
 [참조](https://medium.com/@goinhacker/java-9%EC%9D%98-%EB%B3%80%ED%99%94%EC%99%80-%ED%8A%B9%EC%A7%95-%EB%8C%80%EC%B6%A9-%EC%A0%95%EB%A6%AC-fca77cee88f2)
+
+[참조2](https://www.pluralsight.com/blog/software-development/java-9-new-features)
