@@ -65,6 +65,10 @@ jlink tool을 통해 runtime에 JDK에서 필요한 라이브러리들을 호출
 
 `HttpClient` 클래스
 
+`HttpRequest` d
+
+`HttpResponse` d
+
 #### Multi-Resolution Image API
 
 #### Multi-release JARs
