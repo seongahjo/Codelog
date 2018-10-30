@@ -25,7 +25,9 @@ Java10에는 새롭게 추가된 12가지 특징이 있다.
 
 ?forest 저장소가 뭐지
 
-A collection of Mercurial repositories which can be managed as a set of nested repositories. The name "Forest" originally came from the Mercurial "Forest Extension" which can be used with some versions of Mercurial, but in general is no longer recommended. The script common/bin/hgforest.sh can be used to apply a Mercurial hg command to all the repositories in a forest.
+Mercurial 크로스 플랫폼 분산 버전 관리 도구
+
+forest는 mercurial의 확장 프로그램. 중첩된 파일 트리 같은 느낌??? 잘모르겠다.
 
 [참조](http://itstory.tk/entry/Java-10-%EC%8B%A0%EA%B7%9C-%EA%B8%B0%EB%8A%A5%ED%8A%B9%EC%A7%95-%EC%A0%95%EB%A6%AC)
 

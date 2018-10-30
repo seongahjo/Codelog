@@ -29,8 +29,8 @@ fields:
   hidden: false
   default: ''
 pages:
-- content/post/java/java9.md
 - content/post/java/java10.md
+- content/post/java/java9.md
 - content/post/java/guava.md
 - content/post/java/18-10-25-java.md
 - content/post/java/18-10-23-java.md
