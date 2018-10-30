@@ -29,6 +29,7 @@ fields:
   hidden: false
   default: ''
 pages:
+- content/post/java/jpa.md
 - content/post/java/java9.md
 - content/post/java/java10.md
 - content/post/java/guava.md
@@ -38,7 +39,6 @@ pages:
 - content/post/java/enum.md
 - content/post/선언형-vs-명령형.md
 - content/post/앞으로-공부해야할-것들에-대한-고찰.md
-- content/post/java/jpa.md
 - content/post/인덱스.md
 - content/post/innodb-vs-myisam.md
 - content/post/java/유용한-intellij-plugin.md

@@ -20,7 +20,7 @@ title = "JPA"
 * CascadeType.MERGE 트랜잭션이 종료되고 detach 된 상태에서 연관 엔티티를 추가하거나 변경된 이후에 부모 엔티티가 `merge()`를 수행하면 변경사항이 적용된다.
 * CascadeType.REMOVE 엔티티를 삭제하면 연관된 엔티티도 같이 삭제됨
 * CascadeType.DETACH 부모 엔티티가 `detach()`를 수행하면 연관된 엔티티도 `detach()`실행 되어 변경사항이 적용 안된다.
-* CascadeType.ALL
+* CascadeType.ALL 위의 모든 CascadeType이 적용된다.
 
 persistence context
 
