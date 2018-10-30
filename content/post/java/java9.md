@@ -108,11 +108,9 @@ collection.stream()
 
 `HttpClient` 클래스
 
-`HttpRequest` d
+`HttpRequest` 
 
-`HttpResponse` d
-
-#### Multi-Resolution Image API
+`HttpResponse` 
 
 #### Multi-release JARs
 
