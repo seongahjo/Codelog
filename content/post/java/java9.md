@@ -77,8 +77,8 @@ Iterate를 보조하는 연산.
 
 ```java
 Stream.of(2, 4, 6, 8 , 9, 10,12)
-.takeWhile(n->n%2==0)
-.forEach(System.out::println);
+	.takeWhile(n->n%2==0)
+	.forEach(System.out::println);
 // 2 4 6 8
 ```
 
