@@ -99,4 +99,4 @@ static method도 가능
 
 java 9
 
-private method도 가능 
+private method도 가능
