@@ -63,7 +63,11 @@ module de.codecentric.zipvalidator{
 
 `dropWhile` d
 
-`takeWhile` d
+`takeWhile` 
+
+Iterate를 보조하는 연산.
+
+해당 조건을 만족할 때까지 반복한다.
 
 `ofNullable` d
 
