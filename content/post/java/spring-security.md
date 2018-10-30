@@ -37,6 +37,8 @@ SecurityContext를 가지고 있는 객체이다. `SecurityContextHolder.MODE``_
 
 ##### AuthenticationManager
 
-인증을 처리하는 객체. 인증 성공시 인증 정보를 담은 Authentication 객체를 리턴한다. 실질적인 인증은 `AuthenticationProvider`에 의해 처리된다.
+인증을 처리하는 객체. 인증 성공시 인증 정보를 담은 Authentication 객체를 리턴한다. 실질적인 인증은 `AuthenticationProvider`에 의해 처리된다. 
+
+인증 성공시 Spring Security는 Authentication 객체를 SecurityContext에 저장하고 인증 상태 유지를 위해 세션에 보관한다. 인증 실패시 `AuthenticationException`을 발생시킨다
 
 [참조](https://tramyu.github.io/java/spring/spring-security/)
