@@ -67,6 +67,12 @@ Iterate를 보조하는 연산.
 
 해당 조건을 만족하면 해당 요소를 삭제하고 만족하지 않으면 종료.
 
+```java
+Stream.of(2, 4, 6, 8, 9, 10, 12)
+	.dropWhile(n -> n % 2 == 0)
+    .forEach(System.out::println)
+```
+
 `takeWhile` 
 
 Iterate를 보조하는 연산.
@@ -76,8 +82,8 @@ Iterate를 보조하는 연산.
 만족하지 않으면 종료.
 
 ```java
-Stream.of(2, 4, 6, 8 , 9, 10,12)
-	.takeWhile(n->n%2==0)
+Stream.of(2, 4, 6, 8 , 9, 10, 12)
+	.takeWhile(n -> n % 2 ==0)
 	.forEach(System.out::println);
 // 2 4 6 8
 ```
