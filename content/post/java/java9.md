@@ -122,12 +122,12 @@ Java version에 따라 다른 버전의 라이브러리를 제공함. (하위 �
 
 interface에서
 
-java8
+\+ java8
 
 default method
 
 static method도 가능
 
-java 9
+\+ java 9
 
 private method도 가능
