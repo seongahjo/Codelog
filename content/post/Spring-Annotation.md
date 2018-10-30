@@ -84,6 +84,14 @@ pointcut에 들어가는 advice를 감싸는 부분. `@Before`, `@After` advice�
 
 특정 URI에 매핑되는 클래스나 메소드임을 명시해준다.
 
+Spring 4.3 부터 method를 따로 명시안해줘도 되는 어노테이션들이 추가됐다.
+
+* `@GetMapping`
+* `@PostMapping`
+* `@PutMappin`
+* `@PatchMapping`
+* `@DeleteMapping`
+
 #### **@Controller**
 
 ***
