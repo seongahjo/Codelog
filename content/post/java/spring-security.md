@@ -27,4 +27,4 @@ Principal은 `Authentication`에서 가져올 수 있다.
 
 #### SecurityContextHolder
 
-`SecurityContextHolder.MODE``_INHERITALBLETHREADLOCAL_`_,_ `_SecurityContextHolder._``MODE_THREADLOCAL`이라는 두가지 방법을 제공한다.
+SecurityContext를 가지고 있는 객체, `SecurityContextHolder.MODE``_INHERITALBLETHREADLOCAL_`_,_ `_SecurityContextHolder._``MODE_THREADLOCAL`이라는 두가지 방법을 제공한다.
