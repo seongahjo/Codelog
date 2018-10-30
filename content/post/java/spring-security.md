@@ -24,3 +24,7 @@ Principal은 `Authentication`에서 가져올 수 있다.
 #### Authentication
 
 현재 접근 주체 (Principal)의 정보, 인증 주체(Authority)의 정보를 담는 객체
+
+#### SecurityContextHolder
+
+`SecurityContextHolder.MODE``_INHERITALBLETHREADLOCAL_`_,_ `_SecurityContextHolder._``MODE_THREADLOCAL`이라는 두가지 방법을 제공한다.
