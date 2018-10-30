@@ -61,13 +61,26 @@ module de.codecentric.zipvalidator{
 
 #### Stream API 개선
 
-`dropWhile` d
+`dropWhile` 
+
+Iterate를 보조하는 연산.
+
+해당 조건을 만족하면 해당 요소를 삭제하고 만족하지 않으면 종료.
 
 `takeWhile` 
 
 Iterate를 보조하는 연산.
 
-해당 조건을 만족할 때까지 반복한다.
+앞에서부터 순서대로 해당 조건을 만족하면 냅둔다.
+
+만족하지 않으면 종료.
+
+```java
+Stream.of(2, 4, 6, 8 , 9, 10,12)
+.takeWhile(n->n%2==0)
+.forEach(System.out::println);
+// 2 4 6 8
+```
 
 `ofNullable` d
 
