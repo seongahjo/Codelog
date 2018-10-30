@@ -61,7 +61,7 @@ module de.codecentric.zipvalidator{
 
 #### Stream API 개선
 
-`dropWhile` 
+`dropWhile`
 
 Iterate를 보조하는 연산. 정렬된 스트림에 한해서 사용해야함.
 
@@ -75,9 +75,9 @@ Stream.of(2, 4, 6, 8, 9, 10, 12)
     .forEach(System.out::println)
 ```
 
-`takeWhile` 
+`takeWhile`
 
-Iterate를 보조하는 연산. 정렬된 스트림에 한해서 사.
+Iterate를 보조하는 연산. 정렬된 스트림에 한해서 사용해야함.
 
 정렬되지 않으면 순서가 랜덤으로 되서 매번 반환하는 스트림이 다름.
 
