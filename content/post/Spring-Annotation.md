@@ -39,10 +39,6 @@ Autowired와 Qualifier를 합친 형태
 
 ***
 
-#### **@PostConstruct**
-
-***
-
 #### **@Aspect**
 
 ***
@@ -73,7 +69,14 @@ aspect bean 객체 내에 있는 공통의 메소드를 언제 실행할 것인�
 
 pointcut에 들어가는 advice를 감싸는 부분. `@Before`, `@After` advice를 포함
 
-실행 순서 `@Before` -> `@Around` -> 대상 메소드 -> `@Around` -> `@After` -> `@AfterReturning`
+##### 실행순서
+
+* `@Before`
+* `@Around` 
+* 대상 메소드 
+* `@Around` 
+* `@After`
+* `@AfterReturning`
 
 #### **@RequestMapping**
 
