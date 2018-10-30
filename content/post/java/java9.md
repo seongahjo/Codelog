@@ -96,6 +96,12 @@ Stream.of(2, 4, 6, 8 , 9, 10, 12)
 
 null이 의심되는 객체를 Stream으로 Wrapping하는데 쓰임.
 
+```java
+collection.stream()
+	.flatMap(s -> Stream.ofNullable(map.get(s))
+    .collect(Collectors.toList())
+```
+
 `iterate` 개선
 
 `Optional.of(1).stream()` optional to stream
