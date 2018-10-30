@@ -120,7 +120,9 @@ Java version에 따라 다른 버전의 라이브러리를 제공함. (하위 �
 
 [참조2](https://www.pluralsight.com/blog/software-development/java-9-new-features)
 
-interface에서
+***
+
+#### interface의 변천사
 
 \+ java8
 
