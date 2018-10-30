@@ -35,4 +35,8 @@ SecurityContext를 가지고 있는 객체이다. `SecurityContextHolder.MODE``_
 
 `AuthenticationProvider`는 `AuthenticationProviderBuilder`를 통해서 등록한다?
 
+##### AuthenticationManager
+
+인증을 처리하는 객체. 인증 성공시 인증 정보를 담은 Authentication 객체를 리턴한다. 실질적인 인증은 `AuthenticationProvider`에 의해 처리된다.
+
 [참조](https://tramyu.github.io/java/spring/spring-security/)
