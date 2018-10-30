@@ -31,7 +31,7 @@ SecurityContext를 가지고 있는 객체이다. `SecurityContextHolder.MODE``_
 
 #### Authenticate (인증)
 
-인증은 Spring Security의 AuthenticationManager를 통해 처리하게 된다. 실질적인 인증 처리는 Manager에 등록된 `AuthenticationProvider`를 통해 처리된다. Manager의 구현체는 따로 만들지 않고 기존의 ProviderManager를 사용한다. `AuthenticationProvider`만 교체하는 식으로 인증을 구현한다.
+인증은 Spring Security의 AuthenticationManager를 통해 처리하게 된다. 실질적인 인증 처리는 Manager에 등록된 `AuthenticationProvider`를 통해 처리된다. AuthenticationManager의 구현체는 따로 만들지 않고 `ProviderManager`를 사용한다. `AuthenticationProvider`만 교체하는 식으로 인증을 구현한다.
 
 `AuthenticationProvider`는 `AuthenticationProviderBuilder`를 통해서 등록한다?
 
