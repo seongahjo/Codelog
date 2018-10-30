@@ -29,6 +29,7 @@ fields:
   hidden: false
   default: ''
 pages:
+- content/post/java/annotation.md
 - content/post/Spring-Annotation.md
 - content/post/Bean의-생명주기.md
 - content/post/java/jpa.md
@@ -44,7 +45,6 @@ pages:
 - content/post/인덱스.md
 - content/post/innodb-vs-myisam.md
 - content/post/java/유용한-intellij-plugin.md
-- content/post/java/annotation.md
 - content/post/java/spring-batch.md
 - content/post/spring-mvc-처리구조.md
 - content/post/서버 관련 글/vim-설정-및-정보.md

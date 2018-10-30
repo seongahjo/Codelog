@@ -7,7 +7,7 @@ tags = ["Annotation"]
 title = "Annotation"
 
 +++
-### Annotation
+## Annotation
 
 어노테이션은 **소스 코드에 메타데이터**를 표시하는 것. 리플렉션을 이용하면 어노테이션 지정으로 원하는 클래스를 주입할 수 있음. ex) `@Autowired`
 
@@ -18,7 +18,7 @@ title = "Annotation"
 * `@Repeatble` 반복적으로 어노테이션을 선언할 수 있다.
 * `@Scope` 어노테이션의 범위를 정할 수 있다.
 
-#### 선언법
+### 선언법
 
 ```java
 public @interface AnnotationName{
@@ -33,15 +33,15 @@ enumName enum() default enum.aa;
 }
 ```
 
-#### 중요한 어노테이션
+### 중요한 어노테이션
 
-##### @Retention
+#### @Retention
 
 * `RetentionPolicy.RUNTIME` 컴파일 이후에도 JVM에 의해서 참조가 가능하다.
 * `RetentionPolicy.CLASS` 컴파일러가 클래스를 참조할 때까지 유효하다.
 * `RetentionPolicy.SOURCE` 어노테이션 정보는 컴파일 이후 없어진다.
 
-##### @Target
+#### @Target
 
 * `ElementType.PACKAGE` 패키지 선언시
 * `ElementType.TYPE` 타입 선언시
@@ -54,23 +54,23 @@ enumName enum() default enum.aa;
 * `ElementType.TYPE_PARAMETER` 매개 변수 타입 선언시
 * `ElementType.TYPE_USE` 타입 사용시
 
-##### @Scope
+#### @Scope
 
-###### value
+#### value
 
 * request 요청시 마다 새로 생성
 * singleton (deafult)
 * prototype `getBean()`하는 시점마다 새로운 빈 객체를 생성해준다.
 * session 세션 내 유일한 빈을 생성
 
-###### proxyMode
+##### proxyMode
 
 * ScopedProxyMode.NO 프록시를 생성하지 않는다
 * ScopedProxyMode.INTERFACES 인터페이스에 대해 프록시를 생성
 * ScopedProxyMode.TARGET_CLASS CGLIB을 사용하여 클래스에 대한 프록시 생성
 * ScopedProxyMode.DEFAULT
 
-###### CGLIB
+##### CGLIB
 
 CGLIB은 코드 생성 라이브러리 (Code Generator Library)
 
@@ -78,11 +78,11 @@ CGLIB은 코드 생성 라이브러리 (Code Generator Library)
 
 스프링은 프록시 기반의 AOP를 구현할 때 CGLIB을 사용하고 있다.
 
-###### 사용법
+##### 사용법
 
 * Enhancer 객체 생성
 * enhancer 객체에 `setSuperclass()`를 통해 프록시할 클래스를 지정
-* `setCallback()`을 통해 메소드 인터셉트 가능 (AOP처럼) 
+* `setCallback()`을 통해 메소드 인터셉트 가능 (AOP처럼)
 * `create()` 로 프록시 생성
 
 `Reflection`을 통해 어노테이션이 적용된 곳을 찾고 주입할 수 있다.
