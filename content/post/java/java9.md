@@ -102,8 +102,6 @@ collection.stream()
     .collect(Collectors.toList())
 ```
 
-`iterate` 개선
-
 `Optional.of(1).stream()` optional to stream
 
 #### HTTP2 Client
