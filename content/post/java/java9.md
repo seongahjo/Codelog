@@ -92,7 +92,9 @@ Stream.of(2, 4, 6, 8 , 9, 10, 12)
 // 2 4 6 8
 ```
 
-`ofNullable` d
+`ofNullable` 
+
+null이 의심되는 객체를 Wrapping함.
 
 `iterate` 개선
 
