@@ -63,7 +63,7 @@ module de.codecentric.zipvalidator{
 
 `dropWhile` 
 
-Iterate를 보조하는 연산.
+Iterate를 보조하는 연산. 정렬된 스트림에 한해서 사용하는 것이 좋음.
 
 해당 조건을 만족하면 해당 요소를 삭제하고 만족하지 않으면 종료.
 
@@ -75,7 +75,7 @@ Stream.of(2, 4, 6, 8, 9, 10, 12)
 
 `takeWhile` 
 
-Iterate를 보조하는 연산.
+Iterate를 보조하는 연산. 정렬된 스트림에 한해서 사용하는 것이 좋음.
 
 앞에서부터 순서대로 해당 조건을 만족하면 냅둔다.
 
