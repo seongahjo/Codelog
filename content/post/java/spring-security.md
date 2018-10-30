@@ -20,3 +20,7 @@ Principal은 `Authentication`에서 가져올 수 있다.
 `Authentication`은 `SecurityContext`에서 가져올 수 있다.
 
 `SecurityContext`는 `SecurityContextHolder`를 통해 가져올 수 있다.
+
+#### Authentication
+
+현재 접근 주체 (Principal)의 정보, 인증 주체(Authority)의 정보를 담는 객체
