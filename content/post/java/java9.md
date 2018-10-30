@@ -124,10 +124,9 @@ interface에서
 
 \+ java8
 
-default method
-
-static method도 가능
+* default method
+* static method
 
 \+ java 9
 
-private method도 가능
+* private method
