@@ -22,7 +22,7 @@ title = "Servlet이란"
   
 서블릿 컨테이너는 JSESSION란 이름으로 key, 생성한 session ID를 value로 HTTP 응답의 Set-Cookie header에 cookie로 설정한다.
 
-ServletContext는 웹 애플리케이션이 실행할 때 생성되며 메모리에 저장한다. 모든 session에서 모든 request간 공유가 된다. 이후 web.xml을 파싱하여 servlet, filter, listener를 생성한다. (init()이 실행invoke된다) 서블릿 컨테이너가 종료되면 모든 웹 애플리케이션이 언로드되고 모든 서블릿과 필터의 destory()를 실행한다.
+ServletContext는 웹 애플리케이션이 실행할 때 생성되며 메모리에 저장한다. 모든 session에서 모든 request간 공유가 된다. 이후 web.xml을 파싱하여 servlet, filter, listener를 생성한다. (`init()`이 실행invoke된다) 서블릿 컨테이너가 종료되면 모든 웹 애플리케이션이 언로드되고 모든 서블릿과 필터의 `destory()`를 실행한다.
 
 사용자가 URL을 클릭하면 HTTP Reqeust를 Servlet Container에 보낸다.
 
