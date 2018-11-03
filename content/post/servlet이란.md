@@ -13,6 +13,10 @@ title = "Servlet이란"
 
 자바 서블릿은 자바를 사용하여 웹페이지를 동적으로 생성하는 서버측 프로그램 또는 그 사양을 뜻한다. (Wikipedia)
 
+요청마다 프로세스보다 가벼운 스레드로 응답한다.
+
+서블릿은 `service()` 메소드가 호출된다. 이 메소드는 `request.getMethod()` 메소드를 기반으로 `doGet()` 혹은 `doPost()` 같은 메소드 중 하나를 호출한다. 해당되는 메소드가 서블릿에 없다면 응답에 HTTP 405 에러가 리턴된다.
+
 사용자가 URL을 클릭하면 HTTP Reqeust를 Servlet Container에 보낸다.
 
 Servlet Container는 HttpServletRequest, HttpServletResponse 두 객체를 생성한다(?)
