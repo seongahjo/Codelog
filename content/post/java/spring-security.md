@@ -29,9 +29,11 @@ Principal은 `Authentication`에서 가져올 수 있다.
 
 SecurityContext를 가지고 있는 객체이다. `SecurityContextHolder.MODE_INHERITALBLETHREADLOCAL`_,_ `SecurityContextHolder.MODE_THREADLOCAL`이라는 두가지 방법을 제공한다.
 
-ThreadLocal은 특정 한 스레드에서만 읽고 저장할 수 있다. 
+`ThreadLocal`은 특정 한 스레드에서만 읽고 저장할 수 있다.
 
-InhertableThreadLocal은 자식 스레드가 부모 스레드의 ThreadLocal 값을 읽고 저장해야하는 상황에서 .
+`InheritableThreadLocal`은 자식 스레드가 부모 스레드의 `ThreadLocal` 값을 읽고 저장해야하는 상황에서 사용한다. `InheritableThreadLocal`에 저장된 값은 특정 스레드와 자식 스레드까지 읽고 저장할 수 있다. 
+
+InheritableThreadLocal은 ThreadLocal의 서브 클래스다.
 
 #### Authenticate (인증)
 
