@@ -33,7 +33,7 @@ SecurityContext를 가지고 있는 객체이다. `SecurityContextHolder.MODE_IN
 
 `InheritableThreadLocal`은 자식 스레드가 부모 스레드의 `ThreadLocal` 값을 읽고 저장해야하는 상황에서 사용한다. `InheritableThreadLocal`에 저장된 값은 특정 스레드와 자식 스레드까지 읽고 저장할 수 있다. 
 
-InheritableThreadLocal은 ThreadLocal의 서브 클래스다.
+`InheritableThreadLoca`l은 `ThreadLocal`의 서브 클래스다.
 
 #### Authenticate (인증)
 
