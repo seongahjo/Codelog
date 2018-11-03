@@ -69,6 +69,6 @@ Spring 4.2이후부터 `@CrossOrigin`을 사용하여 쉽게 해결할 수 있�
 
 ##### 전역 CORS 적용
 
-`WebMvcConfigureAdapter`의 멤버 메소드인 addCorsMappings를 Override해서 해결이 가능하다.
+`WebMvcConfigureAdapter`의 멤버 메소드인 `addCorsMappings`를 Override해서 해결이 가능하다.
 
 `public void addCorsMappings(CorsRgistry registry)`를 Override해서 Global CORS 설정이 가능하다.
