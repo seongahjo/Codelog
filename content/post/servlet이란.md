@@ -9,7 +9,9 @@ title = "Servlet이란"
 +++
 ## Servlet
 
-  서블릿 컨테이너는 개발자가 웹 서버와 통신하기 위해 소켓을 생성하고 특정 포트에 리스닝하고 스트림을 생성하는 등의 복잡한 일을 대신 해준다. 컨테이너는 Servlet의 생성과 소멸까지 일련의 과정(Life Cycle)을 관맇나다. 서블릿 컨테이너는 요청이 들어올때 마다 새로운 자바 스레드를 만든다.
+서블릿 컨테이너는 개발자가 웹 서버와 통신하기 위해 소켓을 생성하고 특정 포트에 리스닝하고 스트림을 생성하는 등의 복잡한 일을 대신 해준다. 컨테이너는 Servlet의 생성과 소멸까지 일련의 과정(Life Cycle)을 관리한나다. 서블릿 컨테이너는 요청이 들어올때 마다 새로운 자바 스레드를 만든다.
+
+자바 서블릿은 자바를 사용하여 웹페이지를 동적으로 생성하는 서버측 프로그램 또는 그 사양을 뜻한다. (Wikipedia)
 
 사용자가 URL을 클릭하면 HTTP Reqeust를 Servlet Container에 보낸다.
 
@@ -29,9 +31,9 @@ init() -> 서블릿이 켜질 떄 한번 실행
 
 service - 요청을 받을 때 실행 => doGet(), doPost()
 
-destory() 서버가 꺼질 떄 한번 실행 
+destory() 서버가 꺼질 떄 한번 실행
 
-context에 따라 Container 개수가 달라짐? 아마두? 
+context에 따라 Container 개수가 달라짐? 아마두?
 
 application context Container와
 
