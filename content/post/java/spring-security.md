@@ -29,6 +29,10 @@ Principal은 `Authentication`에서 가져올 수 있다.
 
 SecurityContext를 가지고 있는 객체이다. `SecurityContextHolder.MODE_INHERITALBLETHREADLOCAL`_,_ `SecurityContextHolder.MODE_THREADLOCAL`이라는 두가지 방법을 제공한다.
 
+ThreadLocal은 특정 한 스레드에서만 읽고 저장할 수 있다. 
+
+InhertableThreadLocal은 자식 스레드가 부모 스레드의 ThreadLocal 값을 읽고 저장해야하는 상황에서 .
+
 #### Authenticate (인증)
 
 인증은 Spring Security의 AuthenticationManager를 통해 처리하게 된다. 실질적인 인증 처리는 Manager에 등록된 `AuthenticationProvider`를 통해 처리된다. AuthenticationManager의 구현체는 따로 만들지 않고 `ProviderManager`를 사용한다. `AuthenticationProvider`만 교체하는 식으로 인증을 구현한다.
