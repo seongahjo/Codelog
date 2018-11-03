@@ -29,3 +29,5 @@ title = "Spring Cloud"
   * Zookeeper, Redis, Hazelcast, Consul
 
 전체적으로 외부의 라이브러리와 호환하는 프레임워크라고 생각하면 될듯.
+
+분산처리에 중점을 둔 것 같음?
