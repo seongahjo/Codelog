@@ -20,6 +20,8 @@ title = "Servlet이란"
   
 서블릿 컨테이너는 JSESSION란 이름으로 key, 생성한 session ID를 value로 HTTP 응답의 Set-Cookie header에 cookie로 설정한다.
 
+ServletContext는 웹 애플리케이션이 실행할 때 생성된다.
+
 사용자가 URL을 클릭하면 HTTP Reqeust를 Servlet Container에 보낸다.
 
 Servlet Container는 HttpServletRequest, HttpServletResponse 두 객체를 생성한다(?)
