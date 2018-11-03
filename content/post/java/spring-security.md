@@ -44,3 +44,11 @@ SecurityContext를 가지고 있는 객체이다. `SecurityContextHolder.MODE``_
 Provider 등록은 `WebSecurityConfigureAdapter`를 상속해 만든 `SecurityConfig`에서 할 수 있다. WebSecurityConfigureAdapter는 AuthenticationManger를 가지고 있어 Custom Provider를 등록할 수 있다.
 
 [참조](https://tramyu.github.io/java/spring/spring-security/)
+
+***
+
+### CORS
+
+호스트가 달라도 통신이 가능하게 해준다.
+
+웹 서버 도메인간 엑세스 제어 기능을 제공하여 보안 도메인간 데이터 전송을 가능하게 해준다.
