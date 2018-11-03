@@ -27,7 +27,7 @@ Principal은 `Authentication`에서 가져올 수 있다.
 
 #### SecurityContextHolder
 
-현재 실행하고 있는 스레드의 SecurityContext를 가지고 있는 객체이다. `SecurityContextHolder.MODE_INHERITALBLETHREADLOCAL`_,_ `SecurityContextHolder.MODE_THREADLOCAL`이라는 두가지 방법을 제공한다.
+현재 실행하고 있는 스레드의 `SecurityContext`를 가지고 있는 객체이다. `SecurityContextHolder.MODE_INHERITALBLETHREADLOCAL`_,_ `SecurityContextHolder.MODE_THREADLOCAL`이라는 두가지 방법을 제공한다.
 
 `ThreadLocal`은 특정 한 스레드에서만 읽고 저장할 수 있다.
 
