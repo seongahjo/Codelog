@@ -61,8 +61,14 @@ Same-Origin Policy 동일 출처 정책, 한 출처에서 로드된 문서나 �
 
 1. Pre-Flight Request 실제 요청하려는 경로와 같은 URL에 OPTIONS 메소드로 요청.
 
-`@CrossOrigin` 을 통해 쉽게 해결 가능.
+#### 적용방법
+
+##### 로컬 CORS 적용
+
+Spring 4.2이후부터 `@CrossOrigin`을 사용하여 쉽게 해결할 수 있다.
+
+##### 전역 CORS 적용
+
+`WebMvcConfigureAdapter`의 멤버 메소드인 addCorsMappings를 Override해서 해결이 가능하다.
 
 `public void addCorsMappings(CorsRgistry registry)`를 Override해서 Global CORS 설정이 가능하다.
-
-`addCorsMappings`는 `WebMvcConfigureAdapter`의 멤버 메소드이다.
