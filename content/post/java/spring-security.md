@@ -51,7 +51,7 @@ Provider 등록은 `WebSecurityConfigureAdapter`를 상속해 만든 `SecurityCo
 
 #### SOP
 
-Same-Origin Policy 동일 출처 정책, 한 출처에서 로드된 문서나 스크립트가 다른 출처 자원과 상호작용 못하도록 하는 제약.
+Same-Origin Policy 동일 출처 정책, 한 출처에서 로드된 문서나 스크립트가 다른 출처 자원과 상호작용 못하도록 하는 제약. 두 Origin간 프로토콜, 포트, 호스트가 같아야 통신이 가능하다.
 
 호스트, 프로토콜이 달라도 통신이 가능하게 해준다.
 
