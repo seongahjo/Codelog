@@ -20,7 +20,7 @@ title = "Servlet이란"
   
 서블릿 컨테이너는 JSESSION란 이름으로 key, 생성한 session ID를 value로 HTTP 응답의 Set-Cookie header에 cookie로 설정한다.
 
-ServletContext는 웹 애플리케이션이 실행할 때 생성된다.
+ServletContext는 웹 애플리케이션이 실행할 때 생성된다. 모든 session에서 모든 request간 공유가 된다. 
 
 사용자가 URL을 클릭하면 HTTP Reqeust를 Servlet Container에 보낸다.
 
@@ -34,6 +34,8 @@ doGet() 이나 doPost() 메소드는 동적인 페이지를 생성한 후 HttpSe
 
 응답이 완료되면 두 객체를 소멸시킨다.
 
+서블릿과 필터는 모든 request에서 공유된다.
+
 서블릿의 생명주기
 
 init() -> 서블릿이 켜질 떄 한번 실행
@@ -46,6 +48,8 @@ context에 따라 Container 개수가 달라짐? 아마두?
 
 application context Container와
 
-Serlvet Container 두가지 있음.
+Servlet Container 두가지 있음.
 
 ApplicationContext(와 BeanFactory)가 Spring Container의 역할을 한다. Bean들의 생명주기를 관리한다.
+
+[참조](https://okky.kr/article/372195)
