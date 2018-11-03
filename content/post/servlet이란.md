@@ -17,6 +17,9 @@ title = "Servlet이란"
 
 서블릿은 `service()` 메소드가 호출된다. 이 메소드는 `request.getMethod()` 메소드를 기반으로 `doGet()` 혹은 `doPost()` 같은 메소드 중 하나를 호출한다. 해당되는 메소드가 서블릿에 없다면 응답에 HTTP 405 에러가 리턴된다.
 
+  
+서블릿 컨테이너는 JSESSION란 이름으로 key, 생성한 session ID를 value로 HTTP 응답의 Set-Cookie header에 cookie로 설정한다.
+
 사용자가 URL을 클릭하면 HTTP Reqeust를 Servlet Container에 보낸다.
 
 Servlet Container는 HttpServletRequest, HttpServletResponse 두 객체를 생성한다(?)
