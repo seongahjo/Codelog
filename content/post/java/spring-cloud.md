@@ -25,9 +25,11 @@ title = "Spring Cloud"
   * Open Service Broker API를 구현하여 Service Broker를 구축할 수 있음.
   * Open Service Broker가 뭐지?
 * Spring Cloud Cluster
-  * Leadership election? 
+  * Leadership election?
   * Zookeeper, Redis, Hazelcast, Consul
 
 전체적으로 외부의 라이브러리와 호환하는 프레임워크라고 생각하면 될듯.
 
 분산처리에 중점을 둔 것 같음?
+
+[참조 Spring Cloud Data Flow ](https://www.baeldung.com/spring-cloud-data-flow-stream-processing)
