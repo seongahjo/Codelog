@@ -64,3 +64,5 @@ Same-Origin Policy 동일 출처 정책, 한 출처에서 로드된 문서나 �
 `@CrossOrigin` 을 통해 쉽게 해결 가능.
 
 `public void addCorsMappings(CorsRgistry registry)`를 Override해서 Global CORS 설정이 가능하다.
+
+`addCorsMappings`는 `WebMvcConfigureAdapter`의 멤버 메소드.
