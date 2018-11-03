@@ -49,6 +49,14 @@ Provider 등록은 `WebSecurityConfigureAdapter`를 상속해 만든 `SecurityCo
 
 ### CORS
 
-호스트가 달라도 통신이 가능하게 해준다.
+#### SOP
+
+Same-Origin Policy 동일 출처 정책, 한 출처에서 로드된 문서나 스크립트가 다른 출처 자원과 상호작용 못하도록 하는 제약.
+
+호스트, 프로토콜이 달라도 통신이 가능하게 해준다.
 
 웹 서버 도메인간 엑세스 제어 기능을 제공하여 보안 도메인간 데이터 전송을 가능하게 해준다.
+
+동작과정
+
+1. Pre-Flight Request 실제 요청하려는 경로와 같은 URL에 OPTIONS 메소드로 요청.
