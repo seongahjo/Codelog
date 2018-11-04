@@ -49,5 +49,8 @@ ApplicationContext(와 BeanFactory)가 Spring Container의 역할을 한다. Bea
 
 1. 웹서버가 HTTP 요청을 받는다.
 2. 웹서버가 요청을 서블릿 컨테이너에게 건내준다.
+3. 서블릿 컨테이너에 요청에 해당하는 서블릿이 없을경우 동적으로 서블릿이 할당된다.
+4. 컨테이너가 서블릿을 초기화를 하기 위해 init()을 호출한다. (처음 호출했을 때만)
+5. 컨테이너가 서블릿의 service()를 호출한다. service()에서 request에서 데이터를 받아서 가공 후 response에 넣어 반환한다. 서블릿은 컨테이너의 메모리에 남아서 다른 요청을 처리한다.
 
 [참조](https://okky.kr/article/372195)
