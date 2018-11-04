@@ -23,13 +23,7 @@ ServletContext는 **웹 애플리케이션**이 실행할 때 생성되며 메�
 
 사용자가 URL을 클릭하면 HTTP Reqeust를 Servlet Container에 보낸다.
 
-Servlet Container는 HttpServletRequest, HttpServletResponse 두 객체를 생성한다(?)
-
 사용자가 요청한 URL을 분석하여 어느 서블릿에 대한 요청인지 찾는다
-
-컨테이너는 서블릿 service() 메소드를 호출하며 Method의 종류에 따라 doGet()또는 doPost()가 호출된다.
-
-doGet() 이나 doPost() 메소드는 동적인 페이지를 생성한 후 HttpServletResponse 객체에 응답을 보낸다.
 
 응답이 완료되면 두 객체를 소멸시킨다.
 
