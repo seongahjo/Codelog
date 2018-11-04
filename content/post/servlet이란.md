@@ -27,7 +27,7 @@ ServletContext는 **웹 애플리케이션**이 실행할 때 생성되며 메�
 
 사용자가 요청한 URL을 분석하여 어느 서블릿에 대한 요청인지 찾는다
 
-요청이 오면 `HttpServletRequest`, `HttpServletResponse`가 생성이 된다.
+요청이 오면 `HttpServletRequest`, `HttpServletResponse`가 생성이 된다. 그리고 컨테이너 내부적으로 재사용을 한다.
 
 서블릿과 필터는 모든 request에서 공유된다.
 
