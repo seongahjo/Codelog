@@ -45,4 +45,9 @@ Servlet Container 두가지 있음.
 
 ApplicationContext(와 BeanFactory)가 Spring Container의 역할을 한다. Bean들의 생명주기를 관리한다.
 
+#### 서블렛 컨테이너와 웹 서버가 어떻게 사용자의 요청을 처리하는가
+
+1. 웹서버가 HTTP 요청을 받는다.
+2. 웹서버가 요청을 서블릿 컨테이너에게 건내준다.
+
 [참조](https://okky.kr/article/372195)
