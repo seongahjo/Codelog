@@ -29,6 +29,7 @@ fields:
   hidden: false
   default: ''
 pages:
+- content/post/java/18-11-06.md
 - content/post/java/intellij-plugin.md
 - content/post/servlet이란.md
 - content/post/spring-mvc-처리구조.md
