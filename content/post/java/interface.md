@@ -38,7 +38,7 @@ title = "interface"
 
 추상 메소드가 존재하면 추상 클래스를 상속받는 클래스는 구현을 무조건 해야한다. 다만 추상 클래스가 추상 클래스를 상속받을경우 구현할 필요가 없다.
 
-이는 상속(Inheritance) vs 구현(Implementation) 의 차이라고 볼 수 있다.
+Abstract Class와 Interface의 차이는 상속(Inheritance) vs 구현(Implementation) 의 차이라고 볼 수 있다.
 
 상속은 공통적인 부분, 필드, 메소드 다 포함을 상위 클래스가 가지고 있고 상위 클래스의 확장이 필요할 때 사용한다.
 
