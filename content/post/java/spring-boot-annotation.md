@@ -8,3 +8,9 @@ title = "Spring Boot Annotation"
 
 +++
 ## Spring Boot Annotation
+
+`@EnableWebMvc`
+
+그냥 Spring에서 사용하는 Annotation, Spring Boot는 필요없다. 
+
+`RequestMappingHandlerMapping`, `RequestHandlerAdapter`, `ExceptionHandler`, `ExceptionResolver`, `MessageConverter` 등 빈을 자동으로 등록해준다.
