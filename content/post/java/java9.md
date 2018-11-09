@@ -92,7 +92,7 @@ Stream.of(2, 4, 6, 8 , 9, 10, 12)
 // 2 4 6 8
 ```
 
-`ofNullable` 
+`ofNullable`
 
 null이 의심되는 객체를 Stream으로 Wrapping하는데 쓰임.
 
@@ -108,9 +108,9 @@ collection.stream()
 
 `HttpClient` 클래스
 
-`HttpRequest` 
+`HttpRequest`
 
-`HttpResponse` 
+`HttpResponse`
 
 #### Multi-release JARs
 
@@ -119,16 +119,3 @@ Java version에 따라 다른 버전의 라이브러리를 제공함. (하위 �
 [참조](https://medium.com/@goinhacker/java-9%EC%9D%98-%EB%B3%80%ED%99%94%EC%99%80-%ED%8A%B9%EC%A7%95-%EB%8C%80%EC%B6%A9-%EC%A0%95%EB%A6%AC-fca77cee88f2)
 
 [참조2](https://www.pluralsight.com/blog/software-development/java-9-new-features)
-
-***
-
-#### interface의 변천사
-
-\+ java8
-
-* default method
-* static method
-
-\+ java 9
-
-* private method
