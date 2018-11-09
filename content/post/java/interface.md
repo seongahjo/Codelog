@@ -27,3 +27,13 @@ title = "interface"
 한 개의 추상화된 메소드만을 가지고 있으면 된다.
 
 즉 default method, static method, private method 다 상관없음.
+
+### VS Abstract Class
+
+`abstract` 키워드를 통해 선언한다.
+
+추상 메소드 또한 `abstract` 키워드를 포함한다.
+
+추상 메소드는 있어도 되고 없어도 된다.
+
+추상 메소드가 존재하면 추상 클래스를 상속받는 클래스는 구현을 무조건 해야한다.
