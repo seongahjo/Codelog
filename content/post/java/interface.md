@@ -22,8 +22,8 @@ title = "interface"
 
 ### Functional Interface
 
-`@FunctionalInterface`를 인터페이스 위에 추가하면 된다.
+`@FunctionalInterface` 어노테이션을 인터페이스 위에 선언하면 된다.
 
 한 개의 추상화된 메소드만을 가지고 있으면 된다.
 
-default method, static method, private method 다 상관없음.
+즉 default method, static method, private method 다 상관없음.
