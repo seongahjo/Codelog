@@ -13,12 +13,12 @@ title = "interface"
 
 ### Java8
 
-* +default method
-* +static method
+* + default method
+* + static method
 
 ### Java 9
 
-* +private method
+* + private method
 
 ### Functional Interface
 
