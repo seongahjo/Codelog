@@ -39,6 +39,8 @@ strategy
 
 데이터를 정렬하는 어노테이션
 
+### `@Transient`
+
 ### `@Lob`
 
 큰 데이터를 저장할 때 쓰는 어노테이션 (CLOB,BLOB)
