@@ -31,6 +31,10 @@ Spring Boot가 아닌 그냥 Spring에서 사용하는 Annotation, Spring Boot�
 
 어노테이션이 적용된 메소드의 이름으로 빈이 등록된다.
 
+`@Controller`
+
+Spring MVC, Spring WebFlux에 사용되는 컨트롤러임을 나타낸다.
+
 `@Scope`
 
 `@Resource`
