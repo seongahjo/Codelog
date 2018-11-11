@@ -35,6 +35,10 @@ Spring Boot가 아닌 그냥 Spring에서 사용하는 Annotation, Spring Boot�
 
 Spring MVC, Spring WebFlux에 사용되는 컨트롤러임을 나타낸다.
 
+`@Service`
+
+클래스에 적용이 가능한 어노테이션. 비지니스 로직을 처리하고 계산을 하거나 외부 API를 호출 하는 등 다양한 서비스를 수행하는 클래스에 적용이 가능하다. 특수한`@Component` 라고 생각하면 될 것 같다.
+
 `@Scope`
 
 `@Resource`
