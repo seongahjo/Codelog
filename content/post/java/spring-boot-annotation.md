@@ -39,9 +39,9 @@ Spring MVC, Spring WebFlux에 사용되는 컨트롤러임을 나타낸다.
 
 ### `@Scope`
 
-scopeName
-
 * SCOPE_PROTOTYPE
+
+
 * SCOPE_SINGLETON
 * SCOPE_REQUEST
 * SCOPE_SESSION
