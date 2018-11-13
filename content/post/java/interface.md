@@ -13,12 +13,12 @@ title = "interface"
 
 ### Java8
 
-* + default method
-* + static method
+* default method
+* static method
 
 ### Java 9
 
-* + private method
+* private method
 
 ### Functional Interface
 
@@ -42,4 +42,4 @@ Abstract Class와 Interface의 차이는 상속(Inheritance) vs 구현(Implement
 
 상속은 공통적인 부분, 필드, 메소드 다 포함을 상위 클래스가 가지고 있고 상위 클래스의 확장이 필요할 때 사용한다.
 
- 구현은 같은 메소드를 공유하고 구현만 달리한다. 느슨한 결합이 가능하다. (loosely coupled) (추상화, 다형성)
+구현은 같은 메소드를 공유하고 구현만 달리한다. 느슨한 결합이 가능하다. (loosely coupled) (추상화, 다형성)
