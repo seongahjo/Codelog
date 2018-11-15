@@ -74,4 +74,4 @@ Spring MVC, Spring WebFlux에 사용되는 컨트롤러임을 나타낸다.
 
 ### `@Transactional`
 
-메소드와 클래스에 적용되는 어노테이션.
+메소드와 클래스에 적용되는 어노테이션. Error나 Exception이 일어나면 롤백된다.
