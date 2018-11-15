@@ -29,9 +29,9 @@ fields:
   hidden: false
   default: ''
 pages:
+- content/post/java/hibernate-annotation.md
 - content/post/java/interface.md
 - content/post/java/spring-boot-annotation.md
-- content/post/java/hibernate-annotation.md
 - content/post/java/18-11-08.md
 - content/post/java/18-11-06.md
 - content/post/java/intellij-plugin.md
