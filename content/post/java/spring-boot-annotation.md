@@ -40,8 +40,6 @@ Spring MVC, Spring WebFlux에 사용되는 컨트롤러임을 나타낸다.
 ### `@Scope`
 
 * SCOPE_PROTOTYPE
-
-
 * SCOPE_SINGLETON
 * SCOPE_REQUEST
 * SCOPE_SESSION
@@ -73,3 +71,7 @@ Spring MVC, Spring WebFlux에 사용되는 컨트롤러임을 나타낸다.
 `@Import`, `@AutoConfigurationPackage`
 
 스프링 애플리케이션 컨텍스트의 자동 설정을 가능하게 해준다.
+
+### `@Transactional`
+
+메소드와 클래스에 적용되는 어노테이션.
