@@ -36,3 +36,5 @@ JUnit4까지는 `@Test(expected= Excetion.class)`이런식으로 했지만 JUnit
 JUnit4까지 그룹 테스트를 진행할 때 사용하던 `@Category`가 `@Tag`로 대체됐다.
 
 JUnit4까지 `@Runwith(SpringRunner.class)`였던 것이 `@ExtendWith(SpringExtension.class)`으로 대체됐다.
+
+`@Rule`로 공통적인 테스트 환경을 구성했던 것이 `AfterEachCallback`, `BeforeEachCallback` 인터페이스를 구현하는 것으로 대체됐다.
