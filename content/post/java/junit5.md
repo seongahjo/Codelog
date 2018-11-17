@@ -47,6 +47,6 @@ junitPlatform{
     	tags{
         	exclude project.hasProperty('runIntegrationTests') ? '' : 'integration-test'
             }
-          }
-       }
+		}
+  }
 ```
