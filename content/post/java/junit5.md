@@ -34,3 +34,5 @@ JUnit5는 동시에 다수의 러너를 실행시킬 수 있다.
 JUnit4까지는 `@Test(expected= Excetion.class)`이런식으로 했지만 JUnit5에서는 `assertThrows(Exception.class, ()->{})`이런식으로 처리할 수 있다.
 
 JUnit4까지 그룹 테스트를 진행할 때 사용하던 `@Category`가 `@Tag`로 대체됐다.
+
+JUnit4까지 `@Runwith(SpringRunner.class)`였던 것이 `@ExtendWith(SpringExtension.class)`으로 대체됐다.
