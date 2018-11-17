@@ -65,6 +65,14 @@ JUnit4는 Java5 이상을 지원하고 한 라이브러리 안에 모든 기능�
 
 assume?
 
+### 동기/비동기
+
+#### JUnit4
+
+JUnit4는 한 번에 한 개의 러너밖에 실행할 수 없음.
+
+#### JUnit5
+
 JUnit5는 동시에 다수의 러너를 실행시킬 수 있다.
 
 JUnit4까지는 `@Test(expected= Excetion.class)`이런식으로 했지만 JUnit5에서는 `assertThrows(Exception.class, ()->{})`이런식으로 처리할 수 있다.
