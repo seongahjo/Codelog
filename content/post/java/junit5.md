@@ -30,3 +30,5 @@ Assert도 살짝 변경되었다.
 assume?
 
 JUnit5는 동시에 다수의 러너를 실행시킬 수 있다.
+
+JUnit4까지는 `@Test(expected= Excetion.class)`이런식으로 했지만 JUnit5에서는 `assertThrows(Exception.class, ()->{})`이런식으로 처리할 수 있다.
