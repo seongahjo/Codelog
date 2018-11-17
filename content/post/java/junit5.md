@@ -26,3 +26,5 @@ ex) `@BeforeAll` -> `@BeforeClass`, `@BeforeEach` -> `@Before`
 Assert도 살짝 변경되었다.
 
 `assertThat`이 사라지고 `assertAll`, `assertThrows`가 추가되었다. 또한 메세지 파라미터가 마지막으로 옮겨졌다.
+
+assume?
