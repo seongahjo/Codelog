@@ -9,4 +9,6 @@ title = "Spring Data JDBC"
 +++
 ## Spring Data JDBC
 
-caching, lazy loading
+caching, lazy loading, dirty tracking
+
+[참조](https://spring.io/blog/2018/09/17/introducing-spring-data-jdbc)
