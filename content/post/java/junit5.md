@@ -9,9 +9,7 @@ title = "Junit5"
 +++
 ## Junit5
 
-### Junit4
-
-Junit 라이브러리 안에 모든 기능이 내장되있다.
+Junit4는 Junit 라이브러리 안에 모든 기능이 내장되있다.
 
 하지만 Junit5는 3가지 모듈로 나누어져 있다.
 
