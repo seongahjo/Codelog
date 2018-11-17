@@ -21,7 +21,7 @@ JUnit5는 Java 8 이상부터 지원한다.
 
 Annotation이 살짝 변경되었다.
 
-ex) `@BeforeAll` -> `@BeforeClass`, `@BeforeEach` -> `@Before`
+ex) `@BeforeAll` -> `@BeforeClass`, `@BeforeEach` -> `@Before`, `@Ignore` -> `@Disabled`
 
 Assert도 살짝 변경되었다.
 
