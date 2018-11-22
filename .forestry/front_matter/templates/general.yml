@@ -21,4 +21,5 @@ fields:
   label: CATEGORIES
   name: categories
 pages:
+- content/post/java/면접-질문.md
 - content/post/Goroutine.md
