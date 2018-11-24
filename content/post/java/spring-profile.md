@@ -15,3 +15,5 @@ title = "Spring Profile"
 `@Profile("이름")`으로 설정한다.
 
 Profile Annotation은 클래스와 메소드에 적용이 가능하다. 
+
+`@Profile("!이름")`으로 Not 설정도 가능하다.
