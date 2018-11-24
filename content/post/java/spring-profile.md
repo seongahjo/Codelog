@@ -43,3 +43,9 @@ Bean이름을 통일하려면 중첩 클래스를 사용하는 것을 추천한�
 `false`로 설정할 경우 슈퍼클래스의 profile을 적용하지 않는다.
 
 `true`일 경우 슈퍼클래스의 profile을 적용한다.
+
+### IfProfileValue
+
+name, value를 속성으로 가진다.
+
+name의 속성이 value일경우 해당 테스트를 실행한다.
