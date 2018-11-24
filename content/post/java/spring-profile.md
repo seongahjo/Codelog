@@ -13,3 +13,5 @@ title = "Spring Profile"
 `@Profile`을 통해 각 환경에 맞게 Spring의 Bean들을 설정할 수 있다.
 
 `@Profile("이름")`으로 설정한다.
+
+Profile Annotation은 클래스와 메소드에 적용이 가능하다. 
