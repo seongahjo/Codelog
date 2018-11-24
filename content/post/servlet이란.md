@@ -19,7 +19,7 @@ title = "Servlet이란"
 
 서블릿 컨테이너는 JSESSION란 이름으로 key, 생성한 session ID를 value로 HTTP 응답의 Set-Cookie header에 cookie로 설정한다.
 
-ServletContext는 **웹 애플리케이션**이 실행할 때 생성되며 메모리에 저장한다. 모든 session에서 모든 request간 공유가 된다. 
+ServletContext는 **웹 애플리케이션**이 실행할 때 생성되며 메모리에 저장한다. 모든 session에서 모든 request간 공유가 된다.
 
 서블릿 컨테이너가 종료되면 모든 웹 애플리케이션이 언로드되고 모든 서블릿과 필터의 `destory()`를 실행한다.
 
@@ -56,5 +56,9 @@ ApplicationContext(와 BeanFactory)가 Spring Container의 역할을 한다. Bea
 3. 서블릿 컨테이너에 요청에 해당하는 서블릿이 없을경우 동적으로 서블릿이 할당된다.
 4. 컨테이너가 서블릿을 초기화를 하기 위해 init()을 호출한다. (처음 호출했을 때만)
 5. 컨테이너가 서블릿의 service()를 호출한다. service()에서 request에서 데이터를 받아서 가공 후 response에 넣어 반환한다. 서블릿은 컨테이너의 메모리에 남아서 다른 요청을 처리한다.
+
+`HttpServletRequest`는 body의 내용을 한 번만 읽을 수 있다. 
+
+ServletRequest, ServletResponse
 
 [참조](https://okky.kr/article/372195)
