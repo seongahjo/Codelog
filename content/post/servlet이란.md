@@ -72,4 +72,6 @@ filter는 request와 response 한쌍과 filter chain을 매개변수로 가지�
 3. 첫 번째 필터가 작업을 마치면 매개변수로 받은 filter chain의 `doFilter()`를 호출한다. 그 결과로 두 번째 Filter가 호출된다.
 4. 두 번째 필터가 작업을 마치면 매개변수의 filter chain의 `doFilter()`를 호출하고 서블렛이 `service()`를 호출한다.
 
+필터 자체는 순서를 알 수 없다. 순서는 필터 체인에 의해 제어된다.
+
 [참조](https://okky.kr/article/372195)
