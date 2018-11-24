@@ -61,4 +61,8 @@ ApplicationContext(와 BeanFactory)가 Spring Container의 역할을 한다. Bea
 
 ServletRequest, ServletResponse
 
+#### Filter는 어떻게 작동하는가
+
+filter는 request와 response 한쌍과 filter chain을 매개변수로 가지는 `doFilter()` 메소드를 가지고 있는 `javax.servlet.Filter` 인터페이스를 구현한다.  filter chain은 컨테이너에 의해 주입된다. 컨테이너가 필터들이 연결된 체인을 만든다. 체인 안에 있는 각각의 필터들에게 필터 체인 객체는 남아있는 필터들을 순서대로 리턴한다.
+
 [참조](https://okky.kr/article/372195)
