@@ -31,3 +31,15 @@ Bean이름을 통일하려면 중첩 클래스를 사용하는 것을 추천한�
 #### 사용법
 
 `@ActiveProfiles("프로파일 이름")`
+
+`resolver`와 `inheritProfiles`를 속성으로 가진다.
+
+##### resolver
+
+##### inheritProfiles
+
+상속을 설정하는 옵션
+
+`false`로 설정할 경우 슈퍼클래스의 profile을 적용하지 않는다.
+
+`true`일 경우 슈퍼클래스의 profile을 적용한다.
