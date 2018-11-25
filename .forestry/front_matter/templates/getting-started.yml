@@ -29,6 +29,7 @@ fields:
   hidden: false
   default: ''
 pages:
+- content/post/메모리-구조.md
 - content/post/servlet이란.md
 - content/post/java/beanfactory-vs-applicationcontext.md
 - content/post/java/18-11-17.md
@@ -69,7 +70,6 @@ pages:
 - content/post/마이크로-서비스-아키텍쳐.md
 - content/post/트랜잭션.md
 - content/post/vim-사용기.md
-- content/post/메모리-구조.md
 - content/post/스케쥴링-큐.md
 - content/post/go로-카카오-2차-시험-준비하기.md
 - content/post/Junit5.md
