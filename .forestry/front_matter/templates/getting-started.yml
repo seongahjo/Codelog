@@ -29,6 +29,7 @@ fields:
   hidden: false
   default: ''
 pages:
+- content/post/인덱스.md
 - content/post/Bean의-생명주기.md
 - content/post/메모리-구조.md
 - content/post/servlet이란.md
@@ -57,7 +58,6 @@ pages:
 - content/post/java/메소드-참조.md
 - content/post/java/enum.md
 - content/post/선언형-vs-명령형.md
-- content/post/인덱스.md
 - content/post/innodb-vs-myisam.md
 - content/post/java/유용한-intellij-plugin.md
 - content/post/java/spring-batch.md
