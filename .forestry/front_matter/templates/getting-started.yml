@@ -29,6 +29,7 @@ fields:
   hidden: false
   default: ''
 pages:
+- content/post/Bean의-생명주기.md
 - content/post/메모리-구조.md
 - content/post/servlet이란.md
 - content/post/java/beanfactory-vs-applicationcontext.md
@@ -47,7 +48,6 @@ pages:
 - content/post/java/spring-security.md
 - content/post/java/annotation.md
 - content/post/Spring-Annotation.md
-- content/post/Bean의-생명주기.md
 - content/post/java/jpa.md
 - content/post/java/java9.md
 - content/post/java/java10.md

@@ -1,5 +1,5 @@
 +++
-categories = ["JAVA"]
+categories = ["Java"]
 date = "2018-09-25T14:17:18+00:00"
 description = ""
 tags = ["Spring Framework", "java"]
