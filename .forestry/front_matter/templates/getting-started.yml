@@ -37,7 +37,6 @@ pages:
 - content/post/java/18-10-23-java.md
 - content/post/java/beanfactory-vs-applicationcontext.md
 - content/post/메모리-구조.md
-- content/post/Bean의-생명주기.md
 - content/post/인덱스.md
 - content/post/spring에-대한-공부-진행중-브레인스토밍.md
 - content/post/design pattern/adapter-pattern.md
@@ -46,6 +45,7 @@ pages:
 - content/post/Junit5.md
 - content/post/go로-카카오-2차-시험-준비하기.md
 - content/post/서버 관련 글/vim-설정-및-정보.md
+- content/post/Bean의-생명주기.md
 - content/post/스케쥴링-큐.md
 - content/post/트랜잭션.md
 - content/post/마이크로-서비스-아키텍쳐.md
