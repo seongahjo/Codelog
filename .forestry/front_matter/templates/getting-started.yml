@@ -46,6 +46,7 @@ pages:
 - content/post/서버 관련 글/vim-설정-및-정보.md
 - content/post/Bean의-생명주기.md
 - content/post/인덱스.md
+- content/post/innodb-vs-myisam.md
 - content/post/스케쥴링-큐.md
 - content/post/트랜잭션.md
 - content/post/마이크로-서비스-아키텍쳐.md
@@ -62,7 +63,6 @@ pages:
 - content/post/java/spring-cloud.md
 - content/post/java/spring-batch.md
 - content/post/java/유용한-intellij-plugin.md
-- content/post/innodb-vs-myisam.md
 - content/post/선언형-vs-명령형.md
 - content/post/java/enum.md
 - content/post/java/intellij-plugin.md
